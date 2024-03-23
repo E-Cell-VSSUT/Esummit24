@@ -7,11 +7,12 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Past_Speaker from "./Components/Past_Speaker";
 import Past_Sponsors from "./Components/Past_Sponsors";
-
-import './styles.css';
+import "./styles.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Sponsors from "./Components/Sponsors";
 import Teams from "./Components/Teams";
+import Signup from "./Components/SignUp/SignUp";
+import Login from "./Components/Login/LogIn";
 
 const App = () => {
   const [check, setcheck] = useState(false);
@@ -25,37 +26,63 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-      <div className="z-10 fixed w-full">
-       <Navbar/> 
+        <div className="z-10 fixed w-full">
+          <Navbar />
         </div>
         <Routes>
-          <Route path="/" element={
-            <div>
-              <Main />
-              <About />
-              <Event />
-              <Past_Speaker />
+          <Route
+            path="/"
+            element={
+              <div>
+                <Main />
+                <About />
 
-              <Past_Sponsors />
+                <Event />
 
-            </div>
-          } />
+                <Past_Speaker />
 
-          <Route path="/agenda"
+                <Past_Sponsors />
+              </div>
+            }
+          />
+
+          <Route
+            exact
+            path="/SignUp"
+            element={
+              <div>
+                <Signup />
+              </div>
+            }
+          />
+          <Route
+            exact
+            path="/Login"
+            element={
+              <div>
+                <Login />
+              </div>
+            }
+          />
+
+          <Route
+            path="/agenda"
             element={
               <div>
                 <Agenda />
               </div>
             }
           />
-           <Route path="/Sponsors"
+          <Route
+            path="/Sponsors"
             element={
               <div>
                 <Sponsors />
               </div>
             }
           />
-           <Route path="/contact"
+          <Route
+            path="/contact"
             element={
               <div className="">
                 <Teams />
@@ -63,8 +90,8 @@ const App = () => {
             }
           />
         </Routes>
-<Footer />
-</BrowserRouter>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 };
