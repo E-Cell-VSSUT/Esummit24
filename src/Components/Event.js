@@ -1,7 +1,15 @@
 import React from "react";
 import "../styles.css";
 import { events } from "../constants";
+import { useNavigate } from 'react-router-dom';
 const Event = () => {
+  const navigate = useNavigate();
+  const handleRegister=()=>{
+    navigate('./SignUp')
+  }
+  const handleLogin=()=>{
+    navigate('./LogIn')
+  }
   return (
     <div className="flex flex-col justify-center items-center mt-[100px] gap-10">
       <h1 className="text-white text-2xl xl:text-5xl">Events</h1>
@@ -18,10 +26,10 @@ const Event = () => {
             <div className="content">
               <p>{item.content}</p>
               <div className="flex justify-center items-center gap-5">
-                <div className="flex justify-center items-center gap-5 bg-[#5190cf] text-white text-[13px] w-[80px] h-[40px] rounded-lg cursor-pointer">
+                <div className="flex justify-center items-center gap-5 bg-[#5190cf] text-white text-[13px] w-[80px] h-[40px] rounded-lg cursor-pointer" onClick={handleRegister}>
                   Register
                 </div>
-                <div className="flex justify-center items-center gap-5 bg-[#5190cf] text-white text-[13px] w-[100px] h-[40px] rounded-lg cursor-pointer">
+                <div className="flex justify-center items-center gap-5 bg-[#5190cf] text-white text-[13px] w-[100px] h-[40px] rounded-lg cursor-pointer" onClick={handleLogin}>
                   Event Details
                 </div>
               </div>
