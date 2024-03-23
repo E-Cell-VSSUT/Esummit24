@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Aboutres = () => {
+const Sponsors = () => {
   return (
     <div>
-      about1
+      Sponsors
     </div>
   )
 }
 
-export default Aboutres
+export default Sponsors

@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
-import "./styles.css";
+import "../styles.css";
 
 function ScrollSection() {
   const sectionRef = useRef(null);
@@ -147,7 +147,7 @@ function ScrollSection() {
 
               </div>
 
-              <div className="content" ref={contentRef}>
+              <div className="stats" ref={contentRef}>
                 <div className="attendees" ref={attendeesRef}><p>Attendees</p><p>30 +</p></div>
                 <div className="startups" ref={startupsRef}>
                 <p>startups</p><p>30 +</p>

@@ -1,10 +1,11 @@
-import "./styles.css";
+import "../styles.css";
 import Plx from "react-plx";
+import {  bg,cave,logo } from "../assets";
 
 
 export default function Main() {
   return (
-    <div>
+    <div style={{position:'relative'}}>
       <div className="main">
       <Plx
         parallaxData={[
@@ -31,10 +32,10 @@ export default function Main() {
           left: 0,
           top: 0,
           width: "100%",
-          zIndex: 100,
+          zIndex: 1,
         }}
       >
-        <img style={{ width: "100%",height:'100vh' }} src="back.png" alt="foreground" />
+        <img style={{ width: "100%",height:'100vh' }} src={cave}alt="foreground" />
       </Plx>
       <Plx
         parallaxData={[
@@ -63,7 +64,7 @@ export default function Main() {
           width: "100%",
         }}
       >
-        <img style={{ width: "100%",height:'100vh'  }} src="bgfinal.png" alt="background" />
+        <img className='w-[100%] h-[100%] object-cover'src={bg} alt="background" />
       </Plx>
       <Plx
         parallaxData={[
@@ -86,14 +87,14 @@ export default function Main() {
           alignItems: "center",
           left: 0,
           width: "100%",
-          zIndex: 200,
+          zIndex: 2,
         }}
       >
         <img
           style={{
             width: "90vw",
           }}
-          src="/logo.png"
+          src={logo}
           alt="Goonies"
         />
       </Plx>
