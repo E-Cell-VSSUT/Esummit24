@@ -5,7 +5,7 @@ const Past_Sponsors = () => {
   return (
     <div class="container-Sponsors">
       <div class="header text-white text-2xl xl:text-5xl">
-        <h2>PAST SPONSORS</h2>
+        <h2>PAST SPEAKERS</h2>
       </div>
 
       <div class="scroll-container-Sponsors">

@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@import url('https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700,700i,900,900i|Saira+Extra+Condensed:100,200,300,400,500,600,700,800|Saira:100,200,300,400,500,600,700,800');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;800;900&family=Truculenta:opsz,wght@12..72,100..900&display=swap");
 html,
@@ -15,6 +15,7 @@ body {
   text-align: center;
   background: #000;
   height: 200vh;
+  overflow-x: hidden;
 }
 
 /* hero */
@@ -691,7 +692,7 @@ body {
 
 /* events */
 
-.card{
+.ec{
   width: 260px;
   height: 285px;
   background: #313131;
@@ -706,7 +707,7 @@ body {
   overflow: hidden;
   position: relative;
 }
-.content {
+.econ {
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -729,14 +730,15 @@ body {
   visibility: hidden;
   font-size: medium;
 }
-.card:hover{
-  transform: rotateY(3.142rad);
+.ec:hover{
+  transform: rotate(6.284rad);
+
 }
-.card:hover .content {
+.ec:hover .econ {
   top: 0;
   opacity: 1;
   visibility: visible;
-  transform: rotateY(3.142rad);
+  transform: rotate(6.284rad);
 }
 
 /* guest */
@@ -923,5 +925,54 @@ body {
   -moz-animation-play-state: paused;
   -o-animation-play-state: paused;
   animation-play-state: paused;
+}
+
+/* speaker */
+.speaker-card{
+
+background: transparent;
+display: flex;
+width: 250px;
+height: 290px;
+background-color: #9397a95c;
+justify-content: space-between;
+align-items: center;
+flex-direction: column;
+position: relative;
+cursor: pointer;
+padding: 30px 10px;
+border-radius: 10px;
+overflow: hidden;
+}
+.speaker-card img{
+  width: 70%;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  object-fit: cover;
+  background: #ffdf00;
+  transition: .2s;
+}
+
+.name{
+  font-size: 15px;
+    line-height: 15px;
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+    padding-top: 20px;
+    margin: 0;
+    z-index: 2;
+    padding-bottom: 5px;
+}
+
+.designation {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500;
+  color: #cded09;
+  padding: 0;
+  margin: 0;
+  z-index: 2;
+  text-align: center;
 }
 
