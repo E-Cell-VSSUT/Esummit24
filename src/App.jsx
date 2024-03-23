@@ -7,7 +7,10 @@ import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Past_Speaker from "./Components/Past_Speaker";
 import Past_Sponsors from "./Components/Past_Sponsors";
-import "./styles.css";
+import Speaker from "./Components/Speaker";
+import Competitions from "./Components/EventDetails.js/Competitions";
+
+import './styles.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Sponsors from "./Components/Sponsors";
 import Teams from "./Components/Teams";
@@ -30,21 +33,23 @@ const App = () => {
           <Navbar />
         </div>
         <Routes>
-          <Route
-            path="/"
-            element={
-              <div>
-                <Main />
-                <About />
+          <Route path="/" element={
+            <div className="flex flex-col gap-10">
+            <div className="-z-10">
+              <Main />
+            </div>
+            <About />
+            <div className="flex flex-col justify-center items-center z-1">
+              
+              <Event />
+              <Past_Speaker />
 
-                <Event />
-
-                <Past_Speaker />
-
-                <Past_Sponsors />
+              <Past_Sponsors />
               </div>
-            }
-          />
+              </div>
+          } />
+
+
 
           <Route
             exact
@@ -81,11 +86,31 @@ const App = () => {
               </div>
             }
           />
-          <Route
-            path="/contact"
+          <Route path="/event"
+            element={
+              <div>
+                <Event />
+              </div>
+            }
+          />
+           <Route path="/contact"
             element={
               <div className="">
                 <Teams />
+              </div>
+            }
+          />
+          <Route path="/speakers"
+            element={
+              <div className="">
+                <Speaker />
+              </div>
+            }
+          />
+                  <Route path="/compi"
+            element={
+              <div className="">
+                <Competitions />
               </div>
             }
           />

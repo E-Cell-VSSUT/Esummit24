@@ -24,11 +24,7 @@ export const navLinks = [
       title: "Speakers",
       color:'#',
     },
-    {
-      id: "gallery",
-      title: "Gallery",
-      color:'#',
-    },
+
     {
       id: "contact",
       title: "Contact",

@@ -35,13 +35,13 @@ export default function Main() {
           zIndex: 1,
         }}
       >
-        <img style={{ width: "100%",height:'100vh' }} src={cave}alt="foreground" />
+        <img style={{ width: "100%",height:'100%' }} src={cave}alt="foreground" />
       </Plx>
       <Plx
         parallaxData={[
           {
             start: 0,
-            end: 800,
+            end: 500,
             properties: [
               {
                 startValue: 1,
@@ -64,7 +64,7 @@ export default function Main() {
           width: "100%",
         }}
       >
-        <img className='w-[100%] h-[100%] object-cover'src={bg} alt="background" />
+        <img className='w-[100%] h-[100%]'src={bg} alt="background" />
       </Plx>
       <Plx
         parallaxData={[
