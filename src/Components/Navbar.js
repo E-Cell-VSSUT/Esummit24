@@ -5,6 +5,7 @@ import { navLinks } from '../constants';
 import { ecell, logo } from '../assets';
 import { Link } from "react-router-dom";
 
+
 const Navbar = () => {
   // State to manage the navbar's visibility
   const [nav, setNav] = useState(false);
@@ -30,18 +31,18 @@ const Navbar = () => {
 
 
   return (
-    <div className={scroll ? 'bg-opacity-5 shadow-lg backdrop-blur-md flex justify-center items-center h-24 max-w-full mx-auto px-4 text-white' :'flex justify-center items-center h-24 max-w-full mx-auto px-4 text-white'}>
+    <div className={scroll ? ' bg-opacity-5 shadow-lg backdrop-blur-md flex justify-center items-center h-24 max-w-full mx-auto px-4 text-white' :'flex justify-center items-center h-24 max-w-full mx-auto px-4 text-white'}>
       {/* Logo */}
       <div className='w-full'> <Link to={`/`}><img src={ecell} height={100} width={100} /></Link></div>  
 
       {/* Desktop Navigation */}
-      <ul className='hidden md:flex'>
+      <ul className='hidden md:flex '>
         {navLinks.map(item => (
           <li
             key={item.id}
-            className='p-4 rounded-xl m-2 cursor-pointer'
+            className='p-4 rounded-xl m-2 cursor-pointer transition-all '
           >
-           {item.id == 'home' ? <Link to={`/`}>{item.title}</Link> :<Link to={`/${item.id}`}>{item.title}</Link>}
+           {item.id == 'home' ? <Link className='hover:no-underline hover:bg-slate-900 rounded-sm py-2 px-3  hover:text-gray-400' to={`/`}>{item.title}</Link> :<Link className='hover:no-underline hover:bg-slate-900 rounded-sm py-2 px-3  hover:text-gray-400' to={`/${item.id}`}>{item.title}</Link>}
           </li>
         ))}
       </ul>
