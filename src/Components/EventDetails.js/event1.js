@@ -7,7 +7,7 @@ import { LiaLinkedinIn } from "react-icons/lia";
 import { CiInstagram } from "react-icons/ci";
 import "./compi.css";
 
-const Competitions = () => {
+const Event1 = () => {
   return (
     <div className="bg-[#161b22]">
       <div className="h-[100%] w-[100%] bg-[url('https://www.shutterstock.com/image-photo/sponsorship-concept-on-business-presentation-260nw-405289900.jpg')] bg-no-repeat bg-cover mb-[100px]">
@@ -167,4 +167,4 @@ const Competitions = () => {
   );
 };
 
-export default Competitions;
+export default Event1;

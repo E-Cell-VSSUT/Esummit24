@@ -6,6 +6,7 @@ import Agenda from "./Components/Agenda";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Speaker from "./Components/Speaker";
+import Event1 from "./Components/EventDetails.js/event1";
 import Competitions from "./Components/EventDetails.js/Competitions";
 
 import { bg } from "./assets";
@@ -75,7 +76,7 @@ const App = () => {
           <Route
             path="/agenda"
             element={
-              <div className="bg-[url('https://img.freepik.com/free-photo/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-66984.jpg?w=740&t=st=1711574893~exp=1711575493~hmac=3db94d44231ff1afaac3d370296317ee844a189a47124d3b0d632ea230ee9265')] bg-no-repeat bg-cover">
+              <div className="bg-[#161b22] bg-no-repeat bg-cover">
                 <Agenda />
               </div>
             }
@@ -83,7 +84,7 @@ const App = () => {
           <Route
             path="/Sponsors"
             element={
-              <div>
+              <div className="bg-[#161b22] bg-no-repeat bg-cover">
                 <Sponsors />
               </div>
             }
@@ -91,7 +92,7 @@ const App = () => {
           <Route
             path="/event"
             element={
-              <div className=" bg-[url('https://img.freepik.com/free-vector/interior-grunge-room-with-lights_125540-953.jpg?t=st=1711573462~exp=1711577062~hmac=06de1c10a82d534c9d689e3c0a9fc33adf5bc830082695f7bc71ed2bb430922a&w=1380')] bg-no-repeat bg-cover">
+              <div className=" bg-[#161b22] bg-no-repeat bg-cover">
                 <Event />
               </div>
             }
@@ -99,7 +100,7 @@ const App = () => {
           <Route
             path="/contact"
             element={
-              <div className="bg-[url('https://img.freepik.com/free-photo/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-66984.jpg?w=740&t=st=1711574893~exp=1711575493~hmac=3db94d44231ff1afaac3d370296317ee844a189a47124d3b0d632ea230ee9265')] bg-no-repeat bg-cover">
+              <div className="bg-[#161b22] bg-no-repeat bg-cover">
                 <Teams />
               </div>
             }
@@ -117,6 +118,14 @@ const App = () => {
             element={
               <div className="">
                 <Competitions />
+              </div>
+            }
+          />
+           <Route
+            path="/compi1"
+            element={
+              <div className="">
+                <Event1 />
               </div>
             }
           />

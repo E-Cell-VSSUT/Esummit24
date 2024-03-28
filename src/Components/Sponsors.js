@@ -7,7 +7,7 @@ import { CiInstagram } from "react-icons/ci";
 
 const Sponsors = () => {
   return (
-    <div className="bg-[#1e1e1e]"> 
+    <div className="bg-[#161b22]"> 
       <div className="h-[100%] w-[100%] bg-[url('https://www.shutterstock.com/image-photo/sponsorship-concept-on-business-presentation-260nw-405289900.jpg')] bg-no-repeat bg-cover mb-[100px]">
 
 

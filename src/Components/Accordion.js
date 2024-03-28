@@ -4,12 +4,12 @@ const Accordion = ({ title, answer }) => {
   const [accordionOpen, setAccordionOpen] = useState(false);
 
   return (
-    <div className="w-full h-full py-2 bg-slate-200  p-2 rounded decoration-0">
+    <div className="w-full h-full py-2 bg-slate-300  px-1 rounded decoration-0">
       <button
         onClick={() => setAccordionOpen(!accordionOpen)}
-        className="flex justify-between w-full"
+        className="flex justify-between w-full p-1"
       >
-        <span>{title}</span>
+        <span className="p-1">{title}</span>
         {/* {accordionOpen ? <span>-</span> : <span>+</span>} */}
         <svg
           className="fill-indigo-800 shrink-0 ml-8"

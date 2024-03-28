@@ -3,7 +3,7 @@ import Accordion from "./Accordion";
 
 const Faq = () => {
   return (
-    <div className=" w-[60%] h-full p-4 gap-4 border-4 border-sky-500 decoration-0">
+    <div className=" w-[70%] h-full p-10 gap-4 border-4 border-[#2a323e] rounded-md decoration-0 ">
 
        <div className=" py-1">
        <Accordion
