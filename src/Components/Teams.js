@@ -8,7 +8,7 @@ import { CiInstagram } from "react-icons/ci";
 
 const Teams = () => {
   return (
-    <div className="flex flex-col justify-center items-center h-full w-full gap-10">
+    <div className="flex flex-col justify-center items-center h-full w-full gap-10 bg-gradient-to-br from-black-93 via-gray-800 to-gray-800">
       <h1 className="text-2xl xl:text-6xl text-white mt-[9rem]">
           The Team
         </h1>

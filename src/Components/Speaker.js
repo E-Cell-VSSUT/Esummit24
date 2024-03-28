@@ -7,8 +7,28 @@ import { CiInstagram } from "react-icons/ci";
 
 const Speaker = () => {
   return (
-    <div>
-      <div className="h-[100vh] w-[100vw"></div>
+    <div className="bg-[#1e1e1e]"> 
+      <div className="h-[100%] w-[100%] bg-[url('https://www.shutterstock.com/image-photo/sponsorship-concept-on-business-presentation-260nw-405289900.jpg')] bg-no-repeat bg-cover mb-[100px]">
+
+
+<div className='hero-container'>
+  <div className='background'>
+      <img src='https://www.ecell.in/esummit/assets/images/top-left.png' className='top-left'/>
+      <img src="	https://www.ecell.in/esummit/assets/images/bottom-left.png" className='bottom-left'/>
+      <img src="https://www.ecell.in/esummit/assets/images/bottom-right.png" className='bottom-right'/>
+  </div>
+  <div className='reg-button'>
+      <div className='header'>
+          <span className='green'>SPEAKERS</span>
+          <br/>
+          {/* <span className='white'>EXPO</span> */}
+      </div>
+      <div className='button'>
+          <button>REGISTER</button>
+      </div>
+  </div>
+</div>
+      </div>
       <div className="flex flex-col justify-center items-center gap-y-10">
         <div className="flex justify-center items-center flex-wrap pl-[10px] pr-[10px]">
           <p className="text-sm sm:4xl text-white ml-[10%] mr-[10%]">
