@@ -731,14 +731,14 @@ body {
   font-size: medium;
 }
 .ec:hover{
-  transform: rotate(6.284rad);
 
+  transform: scale(1.05);
 }
 .ec:hover .econ {
   top: 0;
   opacity: 1;
   visibility: visible;
-  transform: rotate(6.284rad);
+  transform: scale(1.05);
 }
 
 /* guest */
