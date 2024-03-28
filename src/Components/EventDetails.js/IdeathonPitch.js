@@ -7,10 +7,10 @@ import { LiaLinkedinIn } from "react-icons/lia";
 import { CiInstagram } from "react-icons/ci";
 import "./compi.css";
 
-const Competitions = () => {
+const IdeathonPitch = () => {
   return (
     <div className="bg-[#161b22]">
-      <div className="h-[100%] w-[100%] bg-[url('https://www.shutterstock.com/image-photo/sponsorship-concept-on-business-presentation-260nw-405289900.jpg')] bg-no-repeat bg-cover mb-[100px]">
+      <div className="h-[100%] w-[100%] bg-[url('https://miro.medium.com/v2/resize:fit:2000/1*gT814ZbgAr4ts-KXq03eQA.jpeg')] bg-no-repeat bg-center opacity-70 bg-cover mb-[100px]">
         <div className="hero-container">
           <div className="background">
             <img
@@ -28,9 +28,9 @@ const Competitions = () => {
           </div>
           <div className="reg-button">
             <div className="header">
-              <span className="green">COPMETITIONS</span>
+              <span className="green">IDEATHON</span>
               <br />
-              <span className="white">EXPO</span>
+              <span className="white">PITCH</span>
             </div>
             <div className="button">
               <button>REGISTER</button>
@@ -167,4 +167,4 @@ const Competitions = () => {
   );
 };
 
-export default Competitions;
+export default IdeathonPitch;

@@ -32,7 +32,7 @@ const Event = () => {
                  <a className="font-semibold hover:no-underline hover:text-neutral-50" > Register</a>
                 </div>
                 <div className="flex event-button justify-center items-center gap-5 bg-[#1a56db] text-white text-[13px] w-[100px] h-[40px] rounded-lg cursor-pointer">
-                  <Link className="font-semibold hover:no-underline hover:text-neutral-50" to='/compi' >Event Details</Link>
+                  <Link className="font-semibold hover:no-underline hover:text-neutral-50" to={item.route} >Event Details</Link>
                 </div>
               </div>
             </div>
