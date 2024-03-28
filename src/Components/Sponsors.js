@@ -11,7 +11,7 @@ const Sponsors = () => {
       <div className="h-[100vh] w-[100vw"></div>
       <div className="flex flex-col justify-center items-center gap-y-10">
         <div className="flex justify-center items-center flex-wrap pl-[10px] pr-[10px]">
-          <p className="text-sm sm:4xl text-white ml-[10%] mr-[10%]">
+          <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 hover:dark:text-gray-300">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est vitae,
             cumque reprehenderit molestias quaerat odio culpa. Ratione
             perferendis, a fugit, eaque doloribus ab maxime totam voluptatem
@@ -20,12 +20,12 @@ const Sponsors = () => {
           </p>
         </div>
         <div className="flex flex-col justify-center items-center gap-10">
-          <h1 className="text-3xl sm:text-4xl text-white">Sponsors</h1>
+          <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white">Sponsors</h1>
 
     <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
 
           <div className="flex flex-col justify-center items-center gap-10">
-              <h1 className="text-md sm:text-lg text-white">Media Sponsors</h1>
+              <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]">
             </div>
             <div className="flex justify-center items-center flex-wrap">
@@ -38,7 +38,7 @@ const Sponsors = () => {
 
 
           <div className="flex flex-col justify-center items-center gap-10">
-              <h1 className="text-md sm:text-lg text-white">Media Sponsors</h1>
+              <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]">
             </div>
             <div className="flex justify-center items-center flex-wrap">
@@ -51,7 +51,7 @@ const Sponsors = () => {
 
 
           <div className="flex flex-col justify-center items-center gap-10">
-              <h1 className="text-md sm:text-lg text-white">Media Sponsors</h1>
+              <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]">
             </div>
             <div className="flex justify-center items-center flex-wrap">
@@ -63,7 +63,7 @@ const Sponsors = () => {
 
 
           <div className="flex flex-col justify-center items-center gap-10">
-              <h1 className="text-md sm:text-lg text-white">Media Sponsors</h1>
+              <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]">
             </div>
             <div className="flex justify-center items-center flex-wrap">
@@ -75,7 +75,7 @@ const Sponsors = () => {
 
 
           <div className="flex flex-col justify-center items-center gap-10">
-              <h1 className="text-md sm:text-lg text-white">Media Sponsors</h1>
+              <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]">
             </div>
             <div className="flex justify-center items-center flex-wrap">
@@ -87,7 +87,7 @@ const Sponsors = () => {
 
 
           <div className="flex flex-col justify-center items-center gap-10">
-              <h1 className="text-md sm:text-lg text-white">Media Sponsors</h1>
+              <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]">
             </div>
             <div className="flex justify-center items-center flex-wrap">
@@ -99,7 +99,7 @@ const Sponsors = () => {
 
 
           <div className="flex flex-col justify-center items-center gap-10">
-              <h1 className="text-md sm:text-lg text-white">Media Sponsors</h1>
+              <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]">
             </div>
             <div className="flex justify-center items-center flex-wrap">
@@ -112,7 +112,7 @@ const Sponsors = () => {
           </div>
 {/* contact */}
           <div className="flex justify-center items-center flex-wrap flex-col gap-[100px] lg:gap-0">
-            <h1 className="text-white text-2xl lg:text-5xl">Contact Us</h1>
+            <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white">Contact Us</h1>
           <div className="team_container">
           {teams.lead.map((team) => (
             <div class="wrapper ">

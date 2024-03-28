@@ -115,8 +115,8 @@ function ScrollSection() {
         <div ref={sectionRef} className="scroll-section-inner">
           <div className="scroll-section">
             <div className="info">
-              <h1>What is Esummit</h1>
-              <p>
+              <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">What is Esummit ?</h1>
+              <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 hover:dark:text-gray-300">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Accusantium suscipit magni consequuntur sequi quo, esse facere
                 blanditiis temporibus, voluptate quasi enim quis quidem
