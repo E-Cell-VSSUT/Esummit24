@@ -124,7 +124,7 @@ body {
   width: 100%;
   height: 100vh;
   min-height: 100vh;
-  border: 2px solid red;
+  border: none;
 
 }
 .box {
@@ -285,11 +285,11 @@ body {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: #35363c;
+  background-color: #191f27;
   border-radius: 5px;
   padding: 20px;
   gap: 10px;
-  border: 1px solid #adb098;
+  border: 2px solid #272e39;
   position: relative;
 }
 
@@ -538,29 +538,21 @@ body {
 .social-icons a,
 .buttons button {
   border-radius: 35px;
-  background: #1e1e1e;
+
   border-color: #061965;
   box-shadow: inset 5px 5px 16px #96b4c8, inset -5px -5px 16px #e0ffff;
 }
 .wrapper {
   position: relative;
-  border: 2px solid black;
-  width: 280px;
+  width: 290px;
   height: 170px;
   padding: 20px;
-  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   z-index: 1;
   transition: 0.1s;
-  border-radius: 19px;
-  border-radius: 31px;
-  border-radius: 27px;
-
-  background: #1e1e1e;
-  border-radius: 10px;
 }
 
 .effect {
@@ -578,29 +570,27 @@ body {
   border-radius: 10px;
   height: 330px;
   width: 280px;
-  background: rgb(15, 76, 117);
-  background: linear-gradient(
-    307deg,
-    rgba(15, 76, 117, 1) 0%,
-    rgba(50, 130, 184, 1) 100%,
-    rgba(187, 225, 250, 1) 100%
-  );
+  background: #1b222d;
+
   visibility: visible;
   margin-top: -10px;
   z-index: -1;
+  border: 2px solid #303a47;
 }
 
 .wrapper .img-area {
   height: 150px;
   width: 150px;
-  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.4s ease;
+  border-radius: 10%;
+  transform: scale(1.3);
 }
-.wrapper .img-area:hover {
+.wrapper:hover .img-area {
   transform: scale(1.05);
+  border-radius: 50%;
 }
 .img-area .inner-area {
   height: calc(100% - 25px);
@@ -708,7 +698,7 @@ body {
   width: 260px;
   height: 285px;
   background: #161b22;
-  border-radius: 15px;
+  border-radius: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -719,6 +709,7 @@ body {
   overflow: hidden;
   position: relative;
   text-decoration: wavy;
+  border: #202832 solid 2px;
 }
 .econ {
   position: absolute;
@@ -780,6 +771,7 @@ cursor: pointer;
 padding: 30px 10px;
 border-radius: 10px;
 overflow: hidden;
+border: 2px solid #1e252e;
 }
 .speaker-card img{
   width: 70%;
@@ -842,6 +834,7 @@ overflow: hidden;
   height: auto;
   z-index: 1;
   filter: drop-shadow(16px 12px 26.8px rgba(0, 0, 0, .66));
+  filter: contrast(110%)  brightness(50%);
 }
 .hero-container .background .bottom-left {
   position: absolute;
@@ -851,6 +844,7 @@ overflow: hidden;
   height: 60%;
   z-index: 0;
   filter: drop-shadow(16px -17px 15px rgba(0, 0, 0, .54));
+  filter: contrast(140%)  brightness(50%);
 }
 .hero-container .background .bottom-right {
   position: absolute;
@@ -859,7 +853,11 @@ overflow: hidden;
   width: 100%;
   height: 20%;
   z-index: 1;
-  filter: drop-shadow(20px -16px 12.8px rgba(0, 0, 0, .4));
+  filter: contrast(110%)  brightness(70%);
+  box-shadow: 0 4px 8px 0 #161b22c0, 0 6px 20px 0 rgba(255, 255, 255, 0);
+ 
+  
+  
 }
 .hero-container .reg-button {
   position: absolute;

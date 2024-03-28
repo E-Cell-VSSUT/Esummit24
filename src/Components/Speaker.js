@@ -7,7 +7,7 @@ import { CiInstagram } from "react-icons/ci";
 
 const Speaker = () => {
   return (
-    <div className="bg-[#1e1e1e]"> 
+    <div className="bg-[#161b22]"> 
       <div className="h-[100%] w-[100%] bg-[url('https://www.shutterstock.com/image-photo/sponsorship-concept-on-business-presentation-260nw-405289900.jpg')] bg-no-repeat bg-cover mb-[100px]">
 
 
@@ -31,7 +31,7 @@ const Speaker = () => {
       </div>
       <div className="flex flex-col justify-center items-center gap-y-10">
         <div className="flex justify-center items-center flex-wrap pl-[10px] pr-[10px]  ">
-          <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 hover:dark:text-gray-300 ml-[5%] mr-[5%]">
+          <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 hover:dark:text-gray-300 ml-[5%] mr-[5%] ">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est vitae,
             cumque reprehenderit molestias quaerat odio culpa. Ratione
             perferendis, a fugit, eaque doloribus ab maxime totam voluptatem

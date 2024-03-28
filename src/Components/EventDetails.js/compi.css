@@ -70,7 +70,7 @@ h1 {
   border-bottom-right-radius: var(--radius);
   border-top-right-radius: var(--radius);    
   background: rgba(255, 255, 255, 0.03);
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.873);
   font-family: var(--font-text);  
   margin: var(--spacing) auto;  
   letter-spacing: 0.5px;   
@@ -81,7 +81,7 @@ h1 {
   list-style: none;
   text-align: left;  
   font-weight: 100;  
-  max-width: 30%; 
+  max-width: 60%; 
   
   h1 {
     font-family: var(--font-title);
