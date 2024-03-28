@@ -8,14 +8,14 @@ const ServiceCardContent = ({ service }) => {
 		<div className="flex flex-col gap-5 justify-center items-center">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba"
+                src={service.logo}
                 alt="cat1"
-                className="rounded-[100%] h-[150px] w-[150px]"
+                className={service?.designation ? "rounded-[100%] h-[150px] w-[150px]":" h-[150px] w-[150px]"}
               />
             </div>
-            <div className="flex flex-col gap-5 justify-center items-center">
-              <h1>Anshu Agrawal</h1>
-              <p>Founder DareDevils</p>
+            <div className="flex flex-col gap-5 justify-center items-center text-white ">
+              <h1>{service.brand}</h1>
+              <p className="text-wrap text-xs">{service?.designation}</p>
             </div>
           </div>
 
@@ -30,11 +30,10 @@ const ServiceCard = ({ service }) => {
 		<Stack
 			position='relative'
 			sx={{
+				display:'flex',
 				width: '100%',
-				height: '100%',
+				minHeight: '350px',
 				
-				overflow: 'hidden',
-			
 			}}
 		>
 			<ServiceCardContent service={service} />

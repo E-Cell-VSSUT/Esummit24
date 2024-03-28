@@ -1,120 +1,9 @@
 import { Stack, Typography } from "@mui/material";
 import ServiceCard from "./PastCard";
 import { useEffect, useRef } from "react";
-import {
-  faBrain,
-  faGamepad,
-  faGlobe,
-  faLaptopCode,
-  faShield,
-} from "@fortawesome/free-solid-svg-icons";
-import { faAndroid, faFigma } from "@fortawesome/free-brands-svg-icons";
 import styles from "./past.module.css";
+import { pastSpon,pastGuests } from "../../constants";
 
-const services = [
-  {
-    icon: faGlobe,
-    name: "Web Development",
-    description:
-      "We are a team of highly skilled developers who are passionate about creating exceptional websites and web applications.",
-  },
-  {
-    icon: faLaptopCode,
-    name: "Competitive Programming",
-    description:
-      "We train together to take our programming skills to the next level with our competitive programming domain.",
-  },
-  {
-    icon: faBrain,
-    name: "AI/ML",
-    description:
-      "We are passionate students who are dedicated to exploring the latest AI/ML technologies and techniques, from developing custom AI models to creating intelligent chatbots.",
-  },
-  {
-    icon: faAndroid,
-    name: "App Development",
-    description:
-      "Our team of talented developers specializes in creating apps for Android and iOS platforms, using the latest technologies and techniques, from developing user-friendly interfaces to building secure and scalable back-end systems.",
-  },
-  {
-    icon: faFigma,
-    name: "UI/UX",
-    description:
-      "Explore the world of user interface and user experience design. Gain hands-on experience in UI/UX, from designing user-friendly interfaces to creating engaging user experiences.",
-  },
-  {
-    icon: faGamepad,
-    name: "Game Development",
-    description:
-      "We are dedicated to exploring the latest game development technologies and techniques. Here at Enigma, we create compelling game mechanics and build immersive game worlds.",
-  },
-  {
-    icon: faShield,
-    name: "Cyber Security",
-    description:
-      "Our community of like-minded peers supports each other's growth and development in the Cyber Security domain, by implementing secure systems to conducting ethical hacking exercies.",
-  },
-  {
-    icon: faGamepad,
-    name: "Game Development",
-    description:
-      "We are dedicated to exploring the latest game development technologies and techniques. Here at Enigma, we create compelling game mechanics and build immersive game worlds.",
-  },
-  {
-    icon: faShield,
-    name: "Cyber Security",
-    description:
-      "Our community of like-minded peers supports each other's growth and development in the Cyber Security domain, by implementing secure systems to conducting ethical hacking exercies.",
-  },
-  {
-    icon: faGamepad,
-    name: "Game Development",
-    description:
-      "We are dedicated to exploring the latest game development technologies and techniques. Here at Enigma, we create compelling game mechanics and build immersive game worlds.",
-  },
-  {
-    icon: faShield,
-    name: "Cyber Security",
-    description:
-      "Our community of like-minded peers supports each other's growth and development in the Cyber Security domain, by implementing secure systems to conducting ethical hacking exercies.",
-  },
-  {
-    icon: faGamepad,
-    name: "Game Development",
-    description:
-      "We are dedicated to exploring the latest game development technologies and techniques. Here at Enigma, we create compelling game mechanics and build immersive game worlds.",
-  },
-  {
-    icon: faShield,
-    name: "Cyber Security",
-    description:
-      "Our community of like-minded peers supports each other's growth and development in the Cyber Security domain, by implementing secure systems to conducting ethical hacking exercies.",
-  },
-  {
-    icon: faGamepad,
-    name: "Game Development",
-    description:
-      "We are dedicated to exploring the latest game development technologies and techniques. Here at Enigma, we create compelling game mechanics and build immersive game worlds.",
-  },
-  {
-    icon: faShield,
-    name: "Cyber Security",
-    description:
-      "Our community of like-minded peers supports each other's growth and development in the Cyber Security domain, by implementing secure systems to conducting ethical hacking exercies.",
-  },
-  {
-    icon: faGamepad,
-    name: "Game Development",
-    description:
-      "We are dedicated to exploring the latest game development technologies and techniques. Here at Enigma, we create compelling game mechanics and build immersive game worlds.",
-  },
-  {
-    icon: faShield,
-    name: "Cyber Security",
-    description:
-      "Our community of like-minded peers supports each other's growth and development in the Cyber Security domain, by implementing secure systems to conducting ethical hacking exercies.",
-  },
-];
 
 const Services = () => {
   const servicesContainerRef = useRef();
@@ -156,8 +45,8 @@ const Services = () => {
             direction={"row"}
             ref={servicesContainerRef}
           >
-            {services
-              .filter((item, idx) => idx <= services.length / 2)
+            {pastGuests.lead
+              .filter((item, idx) => idx <= pastGuests.lead?.length / 2)
               .map((filteredItem) => (
                 <Stack
                   className={styles.cards}
@@ -175,12 +64,12 @@ const Services = () => {
             direction={"row"}
             ref={servicesContainerRef}
           >
-            {services
-              .filter((item, idx) => idx <= services.length / 2)
+            {pastGuests.lead
+              .filter((item, idx) => idx <= pastGuests.lead.length /2)
               .map((filteredItem) => (
                 <Stack
                   className={styles.cards}
-                  height={"270px"}
+                  height={"350px"}
                   width="250px"
                   key={filteredItem.name}
                 >
@@ -208,8 +97,8 @@ const Services = () => {
             direction={"row"}
             ref={servicesContainerRef}
           >
-            {services
-              .filter((item, idx) => idx >= services.length / 2)
+            {pastSpon.lead
+              .filter((item, idx) => idx >= pastSpon.lead.length / 2)
               .map((filteredItem) => (
                 <Stack
                   className={styles.cards}
@@ -230,8 +119,8 @@ const Services = () => {
             direction={"row"}
             ref={servicesContainerRef}
           >
-            {services
-              .filter((item, idx) => idx >= services.length / 2)
+            {pastSpon.lead
+              .filter((item, idx) => idx >= pastSpon.lead.length / 2)
               .map((filteredItem) => (
                 <Stack
                   className={styles.cards}
