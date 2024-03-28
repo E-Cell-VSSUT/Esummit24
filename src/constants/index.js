@@ -66,6 +66,7 @@ export const events = [
       "An intensive program designed to accelerate the growth and development of early-stage companies through mentorship, education, and networking opportunities.",
     regUrl: "",
     eventDet: "",
+    route: "/StartupOddesy"
   },
   {
     id: 2,
@@ -75,6 +76,7 @@ export const events = [
       " Unleashing creativity to craft compelling brand narratives that captivate audiences and drive success.",
     regUrl: "",
     eventDet: "",
+    route: "/BrandBuildUP"
   },
   {
     id: 3,
@@ -84,6 +86,7 @@ export const events = [
       "Participate in a real-time simulation where you'll experience the adrenaline rush of bidding in real time simulation.      ",
     regUrl: "",
     eventDet: "",
+    route: "/IPLAuction"
   },
   {
     id: 4,
@@ -93,6 +96,7 @@ export const events = [
       "Accelerate your trading skills with intensive hands-on learning in our comprehensive trading bootcamp.",
     regUrl: "",
     eventDet: "",
+    route: "/TraderCamp"
   },
   {
     id: 5,
@@ -102,6 +106,7 @@ export const events = [
       "A panel of content creation powerhouses! Hear diverse perspectives and success stories.",
     regUrl: "",
     eventDet: "",
+    route: "/CreaterCorner"
   },
   {
     id: 6,
@@ -111,6 +116,7 @@ export const events = [
       "Learn cutting-edge business strategies, gain inspiration from visionary leaders, and walk away with actionable tools to empower your team and achieve results.",
     regUrl: "",
     eventDet: "",
+    route: "/LeadershipSummit"
   },
   {
     id: 7,
@@ -120,6 +126,7 @@ export const events = [
       "Fuel your body and forge connections! Enjoy a delicious lunch while interacting with fellow attendees, potential collaborators, and industry leaders.      ",
     regUrl: "",
     eventDet: "",
+    route: "/NetWorkingLunch"
   },
   {
     id: 8,
@@ -129,6 +136,7 @@ export const events = [
       "Witness the birth of groundbreaking ideas!  Support and be inspired by innovative startups as they showcase their concepts and compete for recognition. ",
     regUrl: "",
     eventDet: "",
+    route: "/IdeathonPitch"
   },
   {
     id: 9,
@@ -138,6 +146,7 @@ export const events = [
       "De-stress and unwind! Enjoy a side-splitting performance by a comic as laughter is the best medicine.      ",
     regUrl: "",
     eventDet: "",
+    route: "/LaughterLounge"
   }
 ];
 

@@ -7,10 +7,10 @@ import { LiaLinkedinIn } from "react-icons/lia";
 import { CiInstagram } from "react-icons/ci";
 import "./compi.css";
 
-const Event1 = () => {
+const LaughterLounge = () => {
   return (
     <div className="bg-[#161b22]">
-      <div className="h-[100%] w-[100%] bg-[url('https://www.shutterstock.com/image-photo/sponsorship-concept-on-business-presentation-260nw-405289900.jpg')] bg-no-repeat bg-cover mb-[100px]">
+      <div className="h-[100%] w-[100%] bg-[url('https://www.kmmc.in/kmmc/uploads/2023/09/close-up-microphone-concert-stage-with-beautiful-lighting.jpg')] bg-no-repeatbg-center opacity-70 bg-cover mb-[100px]">
         <div className="hero-container">
           <div className="background">
             <img
@@ -28,9 +28,9 @@ const Event1 = () => {
           </div>
           <div className="reg-button">
             <div className="header">
-              <span className="green">STARTUP</span>
+              <span className="green">LAUGHTER</span>
               <br />
-              <span className="white">EXPO</span>
+              <span className="white">LOUNGE</span>
             </div>
             <div className="button">
               <button>REGISTER</button>
@@ -167,4 +167,4 @@ const Event1 = () => {
   );
 };
 
-export default Event1;
+export default LaughterLounge;

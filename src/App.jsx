@@ -6,8 +6,16 @@ import Agenda from "./Components/Agenda";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Speaker from "./Components/Speaker";
-import Event1 from "./Components/EventDetails.js/event1";
+import StartupOddesy from "./Components/EventDetails.js/StartupOddesy";
 import Competitions from "./Components/EventDetails.js/Competitions";
+import BrandBuildUp from "./Components/EventDetails.js/BrandBuildUp";
+import IPLAuction from "./Components/EventDetails.js/IPLAuction";
+import CreaterCorner from "./Components/EventDetails.js/CreaterCorner";
+import IdeathonPitch from "./Components/EventDetails.js/IdeathonPitch";
+import LaughterLounge from "./Components/EventDetails.js/LaughterLounge";
+import LeadershipSummit from "./Components/EventDetails.js/LeadershipSummit";
+import NetworkingLunch from "./Components/EventDetails.js/NetworkingLunch";
+import TraderCamp from "./Components/EventDetails.js/TraderCamp";
 
 import { bg } from "./assets";
 
@@ -34,7 +42,7 @@ const App = () => {
   return (
     <div>
       <BrowserRouter>
-        <div className="z-10 fixed flex-1 w-full">
+        <div className="z-10 fixed flex-1 w-full bg-[#161b2216]">
           <Navbar />
         </div>
         <Routes>
@@ -122,10 +130,74 @@ const App = () => {
             }
           />
            <Route
-            path="/compi1"
+            path="/StartupOddesy"
             element={
               <div className="">
-                <Event1 />
+                <StartupOddesy />
+              </div>
+            }
+          />
+          <Route
+            path="/BrandBuildUp"
+            element={
+              <div className="">
+                <BrandBuildUp />
+              </div>
+            }
+          />
+           <Route
+            path="/IPLAuction"
+            element={
+              <div className="">
+                <IPLAuction />
+              </div>
+            }
+          />
+           <Route
+            path="/CreaterCorner"
+            element={
+              <div className="">
+                <CreaterCorner />
+              </div>
+            }
+          />
+          <Route
+            path="/IdeathonPitch"
+            element={
+              <div className="">
+                <IdeathonPitch />
+              </div>
+            }
+          />
+           <Route
+            path="/TraderCamp"
+            element={
+              <div className="">
+                <TraderCamp />
+              </div>
+            }
+          />
+           <Route
+            path="/LaughterLounge"
+            element={
+              <div className="">
+                <LaughterLounge />
+              </div>
+            }
+          />
+          <Route
+            path="/LeadershipSummit"
+            element={
+              <div className="">
+                <LeadershipSummit />
+              </div>
+            }
+          />
+           <Route
+            path="/NetworkingLunch"
+            element={
+              <div className="">
+                <NetworkingLunch />
               </div>
             }
           />
