@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "../styles.css";
-import { IoSearch } from "react-icons/io5";
+import { agenda } from "../constants";
+
 const Agenda = () => {
   const [day1, setDay1] = useState([]);
   const [day2, setDay2] = useState([]);
@@ -40,13 +41,13 @@ const Agenda = () => {
       </div>
   
       {day==1 ? (
-        day1?.map((item, index) => (
+        agenda.Day1?.map((item, index) => (
           <div className="agenda" key={index}>
             <div className="agenda-content">
               <div className="agenda-header">
                 <p className="topic">
                   <span className="topic-content">Topic: </span>
-                  {item.company.department}
+                  {item.topic}
                 </p>
               </div>
               <div className="agenda-body">
@@ -54,24 +55,18 @@ const Agenda = () => {
                   <div className="details">
                     <p className="venue">
                       <span className="venue-content">Venue:</span>
-                      {item.address.city}
+                      {item.venue}
                     </p>
                     <p className="time">
                       <span className="time-content">Time:</span>
-                      8:00 PM
+                     {item.time}
                     </p>
                   </div>
                   <div className="vbar"></div>
                   <div className="description">
                     <p>
                       <span className="description-content">Description:</span>
-                      Additionally, make sure that your CSS styles are properly
-                      applied to the agenda-container class or any other
-                      relevant classes used in your JSX. Check your CSS file
-                      (page.module.css) to ensure there are styles defined for
-                      .agenda-container and its child elements. If the styles
-                      overriding the visibility of your agenda-container or its
-                      children.
+                      {item.description}
                     </p>
                   </div>
                 </div>
@@ -82,12 +77,12 @@ const Agenda = () => {
                   <div className="agenda-speakers">
                     <div className="agenda-speakers-content">
                       <a href="#">
-                        <img src={item.image} />
+                        <img src={item.imgurl} />
                         <div className="speaker-detail">
                           <p className="type">Speaker</p>
                           <div className="speaker-details-content">
-                            <p className="name">{item.firstName}</p>
-                            <p className="name">{item.company.title}</p>
+                            <p className="name">{item.speaker}</p>
+                            <p className="name">{item.designation}</p>
                           </div>
                         </div>
                       </a>
@@ -99,13 +94,13 @@ const Agenda = () => {
           </div>
         ))
       ) : (
-        day2?.map((item, index) => (
+        agenda.Day2?.map((item, index) => (
           <div className="agenda" key={index}>
             <div className="agenda-content">
               <div className="agenda-header">
                 <p className="topic">
                   <span className="topic-content">Topic: </span>
-                  {item.company.department}
+                  {item.topic}
                 </p>
               </div>
               <div className="agenda-body">
@@ -113,24 +108,18 @@ const Agenda = () => {
                   <div className="details">
                     <p className="venue">
                       <span className="venue-content">Venue:</span>
-                      {item.address.city}
+                      {item.venue}
                     </p>
                     <p className="time">
                       <span className="time-content">Time:</span>
-                      8:00 PM
+                      {item.time}
                     </p>
                   </div>
                   <div className="vbar"></div>
                   <div className="description">
                     <p>
                       <span className="description-content">Description:</span>
-                      Additionally, make sure that your CSS styles are properly
-                      applied to the agenda-container class or any other
-                      relevant classes used in your JSX. Check your CSS file
-                      (page.module.css) to ensure there are styles defined for
-                      .agenda-container and its child elements. If the styles
-                      overriding the visibility of your agenda-container or its
-                      children.
+                     {item.description}
                     </p>
                   </div>
                 </div>
@@ -145,8 +134,8 @@ const Agenda = () => {
                         <div className="speaker-detail">
                           <p className="type">Speaker</p>
                           <div className="speaker-details-content">
-                            <p className="name">{item.firstName}</p>
-                            <p className="name">{item.company.title}</p>
+                            <p className="name">{item.speaker}</p>
+                            <p className="name">{item.designation}</p>
                           </div>
                         </div>
                       </a>

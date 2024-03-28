@@ -711,6 +711,11 @@ body {
   text-decoration: wavy;
   border: #202832 solid 2px;
 }
+.ec img{
+  height: 150px;
+  width: 150px;
+  margin-bottom: 20px;
+}
 .econ {
   position: absolute;
   display: flex;
