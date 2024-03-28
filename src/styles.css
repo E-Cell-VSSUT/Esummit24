@@ -707,17 +707,18 @@ body {
 .ec{
   width: 260px;
   height: 285px;
-  background: #313131;
-  border-radius: 20px;
+  background: #161b22;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color: #fff;
+  color: #ffffff;
   transition: .2s ease-in-out;
   padding: 20px;
   overflow: hidden;
   position: relative;
+  text-decoration: wavy;
 }
 .econ {
   position: absolute;
@@ -729,10 +730,10 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba( 255, 255, 255, 0.1 );
+  background: #0d11177a;
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-  backdrop-filter: blur( 2.5px );
-  -webkit-backdrop-filter: blur( 2.5px );
+  backdrop-filter: blur( 5px );
+  -webkit-backdrop-filter: blur( 5px );
   border-radius: 10px;
   border: 1px solid rgba( 255, 255, 255, 0.18 );
   padding: 20px;
@@ -752,6 +753,13 @@ body {
   visibility: visible;
   transform: scale(1.05);
 }
+.event-button {
+  transition: all 0.1s ease;
+}
+
+.event-button:hover{
+  transform: scale(1.05);
+}
 
 
 
@@ -763,7 +771,7 @@ background: transparent;
 display: flex;
 width: 250px;
 height: 290px;
-background-color: #9397a95c;
+background: #161b22;
 justify-content: space-between;
 align-items: center;
 flex-direction: column;

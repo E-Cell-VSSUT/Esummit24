@@ -4,7 +4,7 @@ import { ecell } from '../assets';
 export default function Footer() {
   return (
     <footer
-      className="bg-neutral-100 text-center text-neutral-600 dark:bg-neutral-600 dark:text-neutral-200 lg:text-left">
+      className="bg-[#0d1117] text-center text-neutral-600 dark:bg-[#0d1117] dark:text-neutral-200 lg:text-left">
       <div
         className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
         <div className="mr-12 hidden lg:block">
@@ -181,7 +181,7 @@ export default function Footer() {
       </div>
 
       {/* <!--Copyright section--> */}
-      <div className="bg-neutral-200 p-6 text-center dark:bg-neutral-700">
+      <div className="bg-[#161b22] p-6 text-center dark:bg-[#161b22]">
         <span>© 2023 Copyright:</span>
         <a
           className="font-semibold text-neutral-600 dark:text-neutral-400 hover:no-underline hover:text-cyan-500"

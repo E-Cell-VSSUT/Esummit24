@@ -30,8 +30,8 @@ const Speaker = () => {
 </div>
       </div>
       <div className="flex flex-col justify-center items-center gap-y-10">
-        <div className="flex justify-center items-center flex-wrap pl-[10px] pr-[10px]">
-          <p className="text-sm sm:4xl text-white ml-[10%] mr-[10%]">
+        <div className="flex justify-center items-center flex-wrap pl-[10px] pr-[10px]  ">
+          <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 hover:dark:text-gray-300 ml-[5%] mr-[5%]">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est vitae,
             cumque reprehenderit molestias quaerat odio culpa. Ratione
             perferendis, a fugit, eaque doloribus ab maxime totam voluptatem
@@ -40,7 +40,7 @@ const Speaker = () => {
           </p>
         </div>
         <div className="flex flex-col justify-center items-center gap-y-10">
-          <h1 className="text-3xl sm:text-4xl text-white ">Our Speakers</h1>
+          <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white">Our Speakers</h1>
 
           <div className="flex justify-center items-center flex-wrap gap-10 ml-[10%] mr-[10%]">
             <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
@@ -51,7 +51,7 @@ const Speaker = () => {
                 />
                 <div class="details">
                   <p class="name">Radhika Bajoria</p>
-                  <p class="designation">Founder, Radically Yours</p>
+                  <p class="designation ">Founder, Radically Yours</p>
                 </div>
               </div>
             </div>
