@@ -4,7 +4,7 @@ import { createUserWithEmailAndPassword, updateProfile } from "firebase/auth";
 
 import { auth } from "../../services/firebase";
 
-import  "./Signup.css";
+// import  "./Signup.css";
 
 function Signup() {
   // const navigate = useNavigate();

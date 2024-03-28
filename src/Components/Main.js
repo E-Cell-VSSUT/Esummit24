@@ -5,8 +5,8 @@ import {  bg,cave,logo } from "../assets";
 
 export default function Main() {
   return (
-    <div style={{position:'relative'}}>
-      <div className="main">
+    <div style={{position:'relative',height:'100vh'}}>
+      <div className="main border-2">
       <Plx
         parallaxData={[
           {
@@ -35,7 +35,7 @@ export default function Main() {
           zIndex: 1,
         }}
       >
-        <img style={{ width: "100%",height:'100%' }} src={cave}alt="foreground" />
+        <img style={{ width: "100%",height:'100vh' }} src={cave}alt="foreground" />
       </Plx>
       <Plx
         parallaxData={[
@@ -64,7 +64,7 @@ export default function Main() {
           width: "100%",
         }}
       >
-        <img className='w-[100%] h-[100%]'src={bg} alt="background" />
+        <img className='w-[100%] h-[100vh]'src={bg} alt="background" />
       </Plx>
       <Plx
         parallaxData={[

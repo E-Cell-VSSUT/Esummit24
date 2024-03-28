@@ -129,7 +129,7 @@ function ScrollSection() {
             </div>
           </div>
 
-          <div className="scroll-section">
+          <div className="scroll-section2">
             <div className="info2">
               <div className="videodiv">
                 <h1 style={{ paddingBottom: "10px", color: "white" }}>
