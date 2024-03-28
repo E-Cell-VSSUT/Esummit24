@@ -24,20 +24,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Sponsors from "./Components/Sponsors";
 import Teams from "./Components/Teams";
 import Past from "./Components/Past/Past";
-import ResMain from "./Components/ResMain";
-import ResAbout from "./Components/ResAbout";
-// import Signup from "./Components/SignUp/SignUp";
-// import Login from "./Components/Login/LogIn";
+
+
 
 const App = () => {
-  const [check, setcheck] = useState(false);
-  useEffect(() => {
-    if (window.outerWidth < 1500) {
-      setcheck(true);
-    } else {
-      setcheck(false);
-    }
-  }, []);
+
 
   return (
     <div>
@@ -46,23 +37,7 @@ const App = () => {
           <Navbar />
         </div>
         <Routes>
-          {/* {check ? ( */}
-            {/* <Route
-              path="/"
-              element={
-                <div className="flex flex-col gap-10" style={{backgroundImage:{bg}}}>
-                  <div className="-z-10">
-                    <ResMain />{" "}
-                  </div>
-                  <ResAbout />
-                  <div className="flex flex-col justify-center items-center z-1">
-                    <Event />
-                    <Past />
-                  </div>
-                </div>
-              }
-            />
-          ) : ( */}
+
             <Route
               path="/"
               element={

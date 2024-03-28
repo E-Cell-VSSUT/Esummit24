@@ -1,4 +1,4 @@
-import { back, logo, bg,brand, base,auction,stock,business,content, networking, idea, standup } from "../assets";
+import { back, logo, bg,brand, base,auction,stock,business,content, networking, idea, standup,sambad,nbt,kanak,top,unity,zebi,leadangel, radio,fablab,girlscript,nilesh,manas,biswajit,gaurav,nagesh,suparna,mayank,anarpurna,ajit } from "../assets";
 
 export const navLinks = [
   {
@@ -153,14 +153,106 @@ export const events = [
 export const pastGuests = {
   lead: [
     {
-      name: "A",
-      designation: "b",
-      imgUrl: "c",
+      id:1,
+      brand: "Nileshchandra Pikle",
+      designation: "Senior Parallel Computing Architect, Braingrid Technologies Private Limited, NVIDIA Partner Company",
+      logo: nilesh,
     },
     {
-      name: "A",
-      designation: "b",
-      imgUrl: "c",
+      id:2,
+      brand: "Suparna Moitra",
+      designation: "Founder at Zustfine",
+      logo: suparna,
+    },
+    {
+      id:3,
+      brand: "Nagesh Narisetty",
+      designation: "Chief Operating Officer Renukoot Cluster at Hindalco Industries Limited",
+      logo: nagesh,
+    },
+    {
+      id:4,
+      brand: "Manas Kumar Mishra",
+      designation: "Senior General Manager at Tata Motors",
+      logo: manas,
+    },
+    {
+      id:5,
+      brand: "Biswajit Dash",
+      designation: "Vice President at Jio",
+      logo: biswajit,
+    },
+    {
+      id:6,
+      brand: "Gaurav Sharma " ,
+      designation: "Senior Vice President at Yes Bank",
+      logo: gaurav,
+    },
+    {
+      id:7,
+      brand: "Mayank Purohit",
+      designation: "Senior Director, Samsung R&D Institute, Head of Software Engineering Team,Bangalore",
+      logo: mayank,
+    },
+    {
+      id:8,
+      brand: "A Annapurna " ,
+      designation: "Head of HR & Administration(India, South Asia   and Dubai) and Head - Global Talent Acquisition at FIME,Founder of Emotionalytics & Co.,Chairperson, Women Entrepreneurship Empowerment Forum(WEEF).",
+      logo: anarpurna,
+    },
+    {
+      id:9,
+      brand: "Ajit Kumar Padhi" ,
+      designation: "Director, Operations,Transformation and Programs, SSC NASSCOM",
+      logo: ajit,
+    },
+    {
+      id:2,
+      brand: "Suparna Moitra",
+      designation: "Founder at Zustfine",
+      logo: suparna,
+    },
+    {
+      id:3,
+      brand: "Nagesh Narisetty",
+      designation: "Chief Operating Officer Renukoot Cluster at Hindalco Industries Limited",
+      logo: nagesh,
+    },
+    {
+      id:4,
+      brand: "Manas Kumar Mishra",
+      designation: "Senior General Manager at Tata Motors",
+      logo: manas,
+    },
+    {
+      id:5,
+      brand: "Biswajit Dash",
+      designation: "Vice President at Jio",
+      logo: biswajit,
+    },
+    {
+      id:6,
+      brand: "Gaurav Sharma " ,
+      designation: "Senior Vice President at Yes Bank",
+      logo: gaurav,
+    },
+    {
+      id:7,
+      brand: "Mayank Purohit",
+      designation: "Senior Director, Samsung R&D Institute, Head of Software Engineering Team,Bangalore",
+      logo: mayank,
+    },
+    {
+      id:8,
+      brand: "A Annapurna " ,
+      designation: "Head of HR & Administration(India, South Asia   and Dubai) and Head - Global Talent Acquisition at FIME,Founder of Emotionalytics & Co.,Chairperson, Women Entrepreneurship Empowerment Forum(WEEF).",
+      logo: anarpurna,
+    },
+    {
+      id:9,
+      brand: "Ajit Kumar Padhi" ,
+      designation: "Director, Operations,Transformation and Programs, SSC NASSCOM",
+      logo: ajit,
     },
   ],
 };
@@ -168,16 +260,44 @@ export const pastGuests = {
 export const pastSpon = {
   lead: [
     {
-      logo: "A",
-      brand: "B",
+      logo: sambad,
+      brand: "Sambad",
     },
     {
-      logo: "A",
-      brand: "B",
+      logo: nbt,
+      brand: "NBT",
     },
     {
-      logo: "A",
-      brand: "B",
+      logo: kanak,
+      brand: "Kanak News",
+    },
+    {
+      logo: top,
+      brand:"Top-Ramen",
+    },
+    {
+      logo: unity,
+      brand: "UNITY",
+    },
+    {
+      logo: zebi,
+      brand: "ZEBI",
+    },
+    {
+      logo: leadangel,
+      brand: "Lead Angel",
+    },
+    {
+      logo: radio,
+      brand: "Radio-Choklate-104-FM",
+    },
+    {
+      logo: fablab,
+      brand: "FAB LAB",
+    },
+    {
+      logo: girlscript,
+      brand: "Girl Script",
     },
   ],
 };
