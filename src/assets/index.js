@@ -36,7 +36,8 @@ import suparna from './suparna.jpg'
 import anarpurna from './anapurna.jpg'
 import mayank from './mayank.jpg'
 import ajit from './ajit.jpg'
+import shortLogo from './1c.png'
 
 export {
-    bg,logo,cave,ecell,mainbg,brand,base,auction,stock,business,content,networking,idea,standup,sambad,nbt,kanak,top,unity,zebi,leadangel,radio,fablab,girlscript,nilesh,manas,biswajit,gaurav,nagesh,suparna,mayank,anarpurna,ajit
+    bg,logo,cave,ecell,mainbg,brand,base,auction,stock,business,content,networking,idea,standup,sambad,nbt,kanak,top,unity,zebi,leadangel,radio,fablab,girlscript,nilesh,manas,biswajit,gaurav,nagesh,suparna,mayank,anarpurna,ajit,shortLogo
 }
