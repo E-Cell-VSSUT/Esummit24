@@ -5,14 +5,26 @@
 @import url('https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700,700i,900,900i|Saira+Extra+Condensed:100,200,300,400,500,600,700,800|Saira:100,200,300,400,500,600,700,800');
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;800;900&family=Truculenta:opsz,wght@12..72,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Indie+Flower&family=Orbitron:wght@400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handjet:wght@300&family=Indie+Flower&family=Ojuju:wght@200..800&family=Orbitron&display=swap');
+
 html,
 body {
   overscroll-behavior: none;
   
 }
+.main-font{
+  font-family: Orbitron , sans-serif;
+}
+.main-font1{
+  font-family: "Ojuju", sans-serif;
+  font-weight: 500;
+  
+}
 
 body {
-  font-family: Arial Black, sans-serif;
+  /* font-family: Arial Black, sans-serif; */
+  font-family:  Black Orbitron, sans-serif;
   text-align: center;
   /* background: url(/src/assets/mainbg.svg); */
   height: 100vh;
@@ -877,14 +889,15 @@ border: 2px solid #1e252e;
 }
 .hero-container .reg-button .green {
   font-size: 45px;
-  color: #cded09;
+  color: #22aaff;
   font-family: Saira Stencil One, sans-serif;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
   margin: 0;
   padding: 0;
 }
 .hero-container .reg-button .white {
   font-size: 45px;
-  color: #fff;
+  color: #c0f9ee;
   font-family: Saira Stencil One, sans-serif;
   margin: 0;
   padding: 0;
@@ -893,11 +906,12 @@ border: 2px solid #1e252e;
   margin-top: 1rem !important;
 }
 .hero-container .reg-button .button button {
-  background-color: #cded09;
-  color: #000;
-  font-size: 17px;
+  background-color: #4288c5;
+  color: #181b2d;
+  font-size: 19px;
   padding: 10px 100px;
-  font-weight: 500;
+  font-weight: 900;
+  border-radius: 3px;
 }
 .hero-container .logo {
   position: absolute;

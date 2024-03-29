@@ -6,6 +6,7 @@ import { ecell, logo } from '../assets';
 import { Link } from "react-router-dom";
 
 
+
 const Navbar = () => {
   // State to manage the navbar's visibility
   const [nav, setNav] = useState(false);
@@ -42,7 +43,7 @@ const Navbar = () => {
             key={item.id}
             className='p-4 rounded-xl m-2 cursor-pointer transition-all'
           >
-           {item.id == 'home' ? <Link className='hover:no-underline hover:bg-slate-900 rounded-sm py-2 px-3  hover:text-gray-400' to={`/`}>{item.title}</Link> :<Link className='hover:no-underline hover:bg-slate-900 rounded-sm py-2 px-3  hover:text-gray-400' to={`/${item.id}`}>{item.title}</Link>}
+           {item.id == 'home' ? <Link className='hover:no-underline main-font text text-lg relative text-white hover:text-gray-400 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-600 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-600 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]' to={`/`}>{item.title}</Link> :<Link className='hover:no-underline main-font relative text-lg text-white hover:text-gray-400 cursor-pointer transition-all ease-in-out before:transition-[width] before:ease-in-out before:duration-600 before:absolute before:bg-gray-400 before:origin-center before:h-[1px] before:w-0 hover:before:w-[50%] before:bottom-0 before:left-[50%] after:transition-[width] after:ease-in-out after:duration-600 after:absolute after:bg-gray-400 after:origin-center after:h-[1px] after:w-0 hover:after:w-[50%] after:bottom-0 after:right-[50%]' to={`/${item.id}`}>{item.title}</Link>}
           </li>
         ))}
       </ul>

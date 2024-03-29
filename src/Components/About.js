@@ -115,15 +115,11 @@ function ScrollSection() {
         <div ref={sectionRef} className="scroll-section-inner">
           <div className="scroll-section">
             <div className="info">
-              <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">What is Esummit ?</h1>
-              <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 hover:dark:text-gray-300">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Accusantium suscipit magni consequuntur sequi quo, esse facere
-                blanditiis temporibus, voluptate quasi enim quis quidem
-                voluptates fuga ipsam mollitia, quos consectetur corporis porro
-                et! Nihil quam quisquam, quasi totam alias exercitationem natus
-                est pariatur perspiciatis aut commodi, iusto, asperiores eos
-                quis ullam.
+              <h1 className="mb-4 text-4xl font-extrabold font leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">What is Esummit ?</h1>
+              <p className="mb-6 main-font text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 hover:dark:text-gray-300">
+              E-Summit is a dynamic platform that brings together entrepreneurs, experts and industry leaders to support the entrepreneurial spirit. 
+              It is a melting pot of ideas, the collision of innovation and business, and the competition of dreams. Through hosting lectures,
+               workshops and interactive sessions, E-Summit aims to inspire, educate and inspire the next generation of dreamers and revolutionaries.
               </p>
               <hr />
             </div>
@@ -132,7 +128,7 @@ function ScrollSection() {
           <div className="scroll-section2">
             <div className="info2">
               <div className="videodiv">
-                <h1 style={{ paddingBottom: "10px", color: "white" }}>
+                <h1 style={{ paddingBottom: "10px", color: "white" }} className="main-font">
                   After Movie
                 </h1>
 
@@ -144,16 +140,17 @@ function ScrollSection() {
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen
                   ></iframe>
+        
 
               </div>
 
               <div className="stats" ref={contentRef}>
-                <div className="attendees" ref={attendeesRef}><p>Attendees</p><p>30 +</p></div>
+                <div className="attendees" ref={attendeesRef}><p className="main-font">Attendees</p><p className="main-font">30 +</p></div>
                 <div className="startups" ref={startupsRef}>
-                <p>startups</p><p>30 +</p>
+                <p className="main-font">startups</p><p className="main-font">30 +</p>
                 </div>
                 <div className="events" ref={eventsRef}>
-                <p>Events</p><p>10 +</p>
+                <p className="main-font">Events</p><p className="main-font">10 +</p>
                 </div>
               </div>
             </div>

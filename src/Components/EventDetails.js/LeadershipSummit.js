@@ -13,18 +13,18 @@ const LeadershipSummit = () => {
       <div className="h-[100%] w-[100%] bg-[url('https://emeritus.org/in/wp-content/uploads/sites/3/2023/09/Untitled-1000-%C3%97-720-px-25.png')] bg-no-repeat bg-center opacity-85 bg-cover mb-[100px]">
         <div className="hero-container">
           <div className="background">
-            <img
+            {/* <img
               src="https://www.ecell.in/esummit/assets/images/top-left.png"
               className="top-left"
-            />
+            /> */}
             <img
               src="	https://www.ecell.in/esummit/assets/images/bottom-left.png"
               className="bottom-left"
             />
-            <img
+            {/* <img
               src="https://www.ecell.in/esummit/assets/images/bottom-right.png"
               className="bottom-right"
-            />
+            /> */}
           </div>
           <div className="reg-button">
             <div className="header">

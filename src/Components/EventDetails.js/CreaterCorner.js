@@ -13,18 +13,18 @@ const CreaterCorner = () => {
       <div className="h-[100%] w-[100%] bg-[url('https://img.freepik.com/premium-photo/two-chairs-microphones-podcast-interview-room-podcast-interview-concept-generative-ai_159242-29955.jpg?w=900')] bg-no-repeat bg-center bg-cover mb-[100px]">
         <div className="hero-container">
           <div className="background">
-            <img
+            {/* <img
               src="https://www.ecell.in/esummit/assets/images/top-left.png"
               className="top-left"
-            />
+            /> */}
             <img
               src="	https://www.ecell.in/esummit/assets/images/bottom-left.png"
               className="bottom-left"
             />
-            <img
+            {/* <img
               src="https://www.ecell.in/esummit/assets/images/bottom-right.png"
               className="bottom-right"
-            />
+            /> */}
           </div>
           <div className="reg-button">
             <div className="header">

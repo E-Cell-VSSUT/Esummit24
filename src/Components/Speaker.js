@@ -8,14 +8,14 @@ import { CiInstagram } from "react-icons/ci";
 const Speaker = () => {
   return (
     <div className="bg-[#161b22]"> 
-      <div className="h-[100%] w-[100%] bg-[url('https://www.shutterstock.com/image-photo/sponsorship-concept-on-business-presentation-260nw-405289900.jpg')] bg-no-repeat bg-cover mb-[100px]">
+      <div className="h-[100%] w-[100%] bg-[url('https://media.licdn.com/dms/image/C4D12AQGMPq_g1qxXOw/article-cover_image-shrink_720_1280/0/1640755559457?e=1717027200&v=beta&t=aH3ds0Brt5k9Ue6_qRCllyfAGQZSeOQHIMLSEWIYuUg')] bg-no-repeat bg-cover mb-[100px]">
 
 
 <div className='hero-container'>
   <div className='background'>
-      <img src='https://www.ecell.in/esummit/assets/images/top-left.png' className='top-left'/>
+      {/* <img src='https://www.ecell.in/esummit/assets/images/top-left.png' className='top-left'/> */}
       <img src="	https://www.ecell.in/esummit/assets/images/bottom-left.png" className='bottom-left'/>
-      <img src="https://www.ecell.in/esummit/assets/images/bottom-right.png" className='bottom-right'/>
+      {/* <img src="https://www.ecell.in/esummit/assets/images/bottom-right.png" className='bottom-right'/> */}
   </div>
   <div className='reg-button'>
       <div className='header'>
@@ -23,7 +23,7 @@ const Speaker = () => {
           <br/>
           {/* <span className='white'>EXPO</span> */}
       </div>
-      <div className='button'>
+      <div className='button main-font'>
           <button>REGISTER</button>
       </div>
   </div>
