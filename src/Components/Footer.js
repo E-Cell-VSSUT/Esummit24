@@ -8,7 +8,7 @@ export default function Footer() {
       <div
         className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
         <div className="mr-12 hidden lg:block">
-          <span>Get connected with us on social networks:</span>
+          <span className='main-font'>Get connected with us on social networks:</span>
         </div>
         {/* <!-- Social network icons container --> */}
         <div className="flex justify-center">
@@ -66,7 +66,7 @@ export default function Footer() {
               className="mb-4 flex items-center justify-center font-semibold uppercase md:justify-start">
               <img src={ecell} height={200} width={200} />
             </h6>
-            <p>
+            <p className='main-font'>
               Here you can use rows and columns to organize your footer
               content. Lorem ipsum dolor sit amet, consectetur adipisicing
               elit.
@@ -75,56 +75,56 @@ export default function Footer() {
           {/* <!-- important links --> */}
           <div className="">
             <h6
-              className="mb-4 flex justify-center font-semibold uppercase md:justify-center">
+              className="mb-4 flex justify-center font-semibold uppercase md:justify-center main-font2">
              Important Links
             </h6>
             <p className="mb-4">
-              <a href='/' className="text-neutral-600 dark:text-neutral-200 hover:no-underline hover:text-cyan-500"
+              <a href='/' className="text-neutral-600 dark:text-neutral-200 hover:no-underline hover:text-cyan-500 main-font"
               >Home</a>
             </p>
             <p className="mb-4">
-              <a href='event' className="text-neutral-600 dark:text-neutral-200 hover:no-underline hover:text-cyan-500"
+              <a href='event' className="text-neutral-600 dark:text-neutral-200 hover:no-underline hover:text-cyan-500 main-font"
               >Events</a>
             </p>
             <p className="mb-4">
-              <a href='Sponsors' className="text-neutral-600 dark:text-neutral-200 hover:no-underline hover:text-cyan-500"
+              <a href='Sponsors' className="text-neutral-600 dark:text-neutral-200 hover:no-underline hover:text-cyan-500 main-font"
               >Sponsors</a>
             </p>
             <p>
-              <a href='speakers' className="text-neutral-600 dark:text-neutral-200 hover:no-underline hover:text-cyan-500"
+              <a href='speakers' className="text-neutral-600 dark:text-neutral-200 hover:no-underline hover:text-cyan-500 main-font"
               >Speakers</a>
             </p>
           </div>
           {/* <!-- Useful links section --> */}
           <div className="">
             <h6
-              className="mb-4 flex justify-center font-semibold uppercase md:justify-center">
+              className="mb-4 flex justify-center font-semibold uppercase md:justify-center main-font2">
               Useful links
             </h6>
             <p className="mb-4">
-              <a href='contact' className="text-neutral-600 dark:text-neutral-200 hover:no-underline hover:text-cyan-500"
+              <a href='contact' className="text-neutral-600 dark:text-neutral-200 hover:no-underline hover:text-cyan-500 main-font"
               >Contact</a>
             </p>
             <p className="mb-4">
-              <a href='agenda' className="text-neutral-600 dark:text-neutral-200 hover:no-underline hover:text-cyan-500"
+              <a href='agenda' className="text-neutral-600 dark:text-neutral-200 hover:no-underline hover:text-cyan-500 main-font"
               >Agenda</a>
             </p>
             <p className="mb-4">
-              <a href='' className="text-neutral-600 dark:text-neutral-200 hover:no-underline hover:text-cyan-500"
+              <a href='' className="text-neutral-600 dark:text-neutral-200 hover:no-underline hover:text-cyan-500 main-font"
               >Register</a>
             </p>
             <p>
-              <a href='' className="text-neutral-600 dark:text-neutral-200 hover:no-underline hover:text-cyan-500"
+              <a href='' className="text-neutral-600 dark:text-neutral-200 hover:no-underline hover:text-cyan-500 main-font"
               >E-cell Vssut</a>
             </p>
           </div>
           {/* <!-- Contact section --> */}
           <div>
             <h6
-              className="mb-4 flex justify-center font-semibold uppercase md:justify-start">
+              className="mb-4 flex justify-center font-semibold uppercase md:justify-start main-font2">
               Contact
             </h6>
-            <p className="mb-4 flex items-center justify-center md:justify-start">
+            <p className="mb-4 flex items-center justify-center md:justify-start main-font ">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -137,7 +137,7 @@ export default function Footer() {
               </svg>
               VSSUT, Burla, Odisha 768018
             </p>
-            <p className="mb-4 flex items-center justify-center md:justify-start">
+            <p className="mb-4 flex items-center justify-center md:justify-start main-font">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -148,9 +148,9 @@ export default function Footer() {
                 <path
                   d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
               </svg>
-              <a href="mailto:edpcell@vssut.ac.in" className='hover:no-underline hover:text-cyan-500'>edpcell@vssut.ac.in</a>
+              <a href="mailto:edpcell@vssut.ac.in" className='hover:no-underline hover:text-cyan-500 main-font'>edpcell@vssut.ac.in</a>
             </p>
-            <p className="mb-4 flex items-center justify-center md:justify-start">
+            <p className="mb-4 flex items-center justify-center md:justify-start main-font">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"
@@ -163,7 +163,7 @@ export default function Footer() {
               </svg>
               + 01 234 567 88
             </p>
-            <p className="flex items-center justify-center md:justify-start">
+            <p className="flex items-center justify-center md:justify-start main-font">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 24 24"

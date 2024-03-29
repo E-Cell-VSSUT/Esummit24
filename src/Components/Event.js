@@ -13,7 +13,7 @@ const Event = () => {
   }
   return (
     <div className="flex flex-col justify-center items-center pt-[100px] pb-[100px] gap-10">
-      <h1 className="text-white text-2xl xl:text-5xl">Events</h1>
+      <h1 className="text-white text-2xl xl:text-5xl main-font2">Events</h1>
 
       <div
       
