@@ -114,9 +114,9 @@ function ScrollSection() {
       <div ref={triggerRef}>
         <div ref={sectionRef} className="scroll-section-inner">
           <div className="scroll-section">
-            <div className="info">
-              <h1 className="mb-4 text-4xl font-extrabold font leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">What is Esummit ?</h1>
-              <p className="mb-6 main-font text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 hover:dark:text-gray-300">
+            <div className="info mt-[100px] sm:mt-0">
+              <h1 className="mb-4 text-1xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">What is Esummit ?</h1>
+              <p className="w-full mb-6 text-xs lg:text-xl font-normal text-gray-500 dark:text-gray-400 hover:dark:text-gray-300">
               E-Summit is a dynamic platform that brings together entrepreneurs, experts and industry leaders to support the entrepreneurial spirit. 
               It is a melting pot of ideas, the collision of innovation and business, and the competition of dreams. Through hosting lectures,
                workshops and interactive sessions, E-Summit aims to inspire, educate and inspire the next generation of dreamers and revolutionaries.
@@ -128,7 +128,7 @@ function ScrollSection() {
           <div className="scroll-section2">
             <div className="info2">
               <div className="videodiv">
-                <h1 style={{ paddingBottom: "10px", color: "white" }} className="main-font">
+                <h1 style={{ paddingBottom: "10px", color: "white" }} className="main-font text-lg sm:text-2xl">
                   After Movie
                 </h1>
 
