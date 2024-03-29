@@ -17,7 +17,7 @@ import LeadershipSummit from "./Components/EventDetails.js/LeadershipSummit";
 import NetworkingLunch from "./Components/EventDetails.js/NetworkingLunch";
 import TraderCamp from "./Components/EventDetails.js/TraderCamp";
 
-import { bg } from "./assets";
+import { shortLogo } from "./assets";
 
 import "./styles.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
@@ -25,13 +25,36 @@ import Sponsors from "./Components/Sponsors";
 import Teams from "./Components/Teams";
 import Past from "./Components/Past/Past";
 
+import PropagateLoader from "react-spinners/PropagateLoader";
+
 
 
 const App = () => {
 
+  const [loading,setLoading]=useState(false);
+
+  useEffect(()=>{
+    setLoading(true);
+    setTimeout(()=>{
+      setLoading(false);
+    },2000)
+  },[])
 
   return (
     <div>
+      {loading ? 
+    <div className="flex justify-center items-center text-center bg-[#0d1117] w-full h-screen">
+      <div className="flex flex-col justify-center items-center -mt-[100px]">
+      <img src={shortLogo} className="w-[100px] sm:w-[200px] h-[100px] sm:h-[200px] " />
+         <PropagateLoader 
+         color="#164457"
+         size={20}
+         aria-label="Loading Spinner"
+         data-testid="loader"
+         /> 
+         </div>
+         </div>
+         : 
       <BrowserRouter>
         <div className="z-10 fixed flex-1 w-full bg-[#161b2216]">
           <Navbar />
@@ -181,6 +204,7 @@ const App = () => {
         <Footer />
         </div>
       </BrowserRouter>
+      }
     </div>
   );
 };

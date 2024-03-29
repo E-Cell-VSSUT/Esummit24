@@ -81,19 +81,18 @@ export default function Main() {
           },
         ]}
         style={{
-          position: "fixed",
+          position: "absolute",
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          left: 0,
           width: "100%",
           zIndex: 2,
+          top:'45%',
+          bottom:'50%'
         }}
       >
         <img
-          style={{
-            width: "90vw",
-          }}
+          className="w-[500px] sm:w-[100vw] lg:w-[90vw]"
           src={logo}
           alt="Goonies"
         />
