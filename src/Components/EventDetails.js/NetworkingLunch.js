@@ -13,18 +13,18 @@ const NetworkingLunch = () => {
       <div className="h-[100%] w-[100%] bg-[url('https://media.licdn.com/dms/image/D5612AQFL8W1goz6qrQ/article-cover_image-shrink_720_1280/0/1679967164325?e=2147483647&v=beta&t=Naqebp4UD8aom_MsjcvSgKanFddmFuu0M1M0v0tPMJ8')] bg-no-repeat bg-center opacity-85 bg-cover mb-[100px]">
         <div className="hero-container">
           <div className="background">
-            <img
+            {/* <img
               src="https://www.ecell.in/esummit/assets/images/top-left.png"
               className="top-left"
-            />
+            /> */}
             <img
               src="	https://www.ecell.in/esummit/assets/images/bottom-left.png"
               className="bottom-left"
             />
-            <img
+            {/* <img
               src="https://www.ecell.in/esummit/assets/images/bottom-right.png"
               className="bottom-right"
-            />
+            /> */}
           </div>
           <div className="reg-button">
             <div className="header">

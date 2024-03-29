@@ -23,16 +23,16 @@ const Event = () => {
 
           <div className="ec">
             <img alt={item.id} className="img" src={item.logo} />
-            <p class="title">{item.title}</p>
+            <p class="title main-font">{item.title}</p>
 
             <div className="econ">
-              <p>{item.content}</p>
+              <p className="main-font1">{item.content}</p>
               <div className="flex justify-center items-center gap-5">
-                <div className="flex event-button justify-center items-center gap-5 bg-[#1a56db] text-white text-[13px] w-[100px] h-[40px] rounded-lg cursor-pointer" onClick={handleRegister}>
-                 <a className="font-semibold hover:no-underline hover:text-neutral-50" > Register</a>
+                <div className="flex event-button justify-center items-center gap-5 bg-[#1a57db93] text-white text-[13px] w-[100px] h-[40px] rounded-lg cursor-pointer" onClick={handleRegister}>
+                 <a className=" hover:no-underline hover:text-neutral-50 main-font" > Register</a>
                 </div>
-                <div className="flex event-button justify-center items-center gap-5 bg-[#1a56db] text-white text-[13px] w-[100px] h-[40px] rounded-lg cursor-pointer">
-                  <Link className="font-semibold hover:no-underline hover:text-neutral-50" to={item.route} >Event Details</Link>
+                <div className="flex event-button justify-center items-center gap-5 bg-[#1a57db96] text-white text-[13px] w-[110px] h-[40px] rounded-lg cursor-pointer">
+                  <Link className=" hover:no-underline hover:text-neutral-50 main-font " to={item.route} >Event Details</Link>
                 </div>
               </div>
             </div>

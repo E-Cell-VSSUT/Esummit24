@@ -13,18 +13,18 @@ const Competitions = () => {
       <div className="h-[100%] w-[100%] bg-[url('https://www.shutterstock.com/image-photo/sponsorship-concept-on-business-presentation-260nw-405289900.jpg')] bg-no-repeat bg-cover mb-[100px]">
         <div className="hero-container">
           <div className="background">
-            <img
+            {/* <img
               src="https://www.ecell.in/esummit/assets/images/top-left.png"
               className="top-left"
-            />
+            /> */}
             <img
               src="	https://www.ecell.in/esummit/assets/images/bottom-left.png"
               className="bottom-left"
             />
-            <img
+            {/* <img
               src="https://www.ecell.in/esummit/assets/images/bottom-right.png"
               className="bottom-right"
-            />
+            /> */}
           </div>
           <div className="reg-button">
             <div className="header">

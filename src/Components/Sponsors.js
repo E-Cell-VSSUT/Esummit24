@@ -8,23 +8,23 @@ import { CiInstagram } from "react-icons/ci";
 const Sponsors = () => {
   return (
     <div className="bg-[#161b22]"> 
-      <div className="h-[100%] w-[100%] bg-[url('https://www.shutterstock.com/image-photo/sponsorship-concept-on-business-presentation-260nw-405289900.jpg')] bg-no-repeat bg-cover mb-[100px]">
+      <div className="h-[100%] w-[100%] bg-[url('https://t3.ftcdn.net/jpg/02/32/64/60/360_F_232646034_erlW1pNQw6vlPZlarM504wUbOFClpfTJ.jpg')] bg-no-repeat bg-cover mb-[100px]">
 
 
       <div className='hero-container'>
         <div className='background'>
-            <img src='https://www.ecell.in/esummit/assets/images/top-left.png' className='top-left'/>
+            {/* <img src='https://www.ecell.in/esummit/assets/images/top-left.png' className='top-left'/> */}
             <img src="	https://www.ecell.in/esummit/assets/images/bottom-left.png" className='bottom-left'/>
-            <img src="https://www.ecell.in/esummit/assets/images/bottom-right.png" className='bottom-right'/>
+            {/* <img src="https://www.ecell.in/esummit/assets/images/bottom-right.png" className='bottom-right'/> */}
         </div>
         <div className='reg-button'>
             <div className='header'>
-                <span className='green'>STARTUP</span>
+                <span className='green '>SPONSORS</span>
                 <br/>
-                <span className='white'>EXPO</span>
+                <span className='white'></span>
             </div>
             <div className='button'>
-                <button>REGISTER</button>
+                <button className="main-font">REGISTER</button>
             </div>
         </div>
     </div>
