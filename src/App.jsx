@@ -6,16 +6,16 @@ import Agenda from "./Components/Agenda";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Speaker from "./Components/Speaker";
-import StartupOddesy from "./Components/EventDetails.js/StartupOddesy";
-import Competitions from "./Components/EventDetails.js/Competitions";
-import BrandBuildUp from "./Components/EventDetails.js/BrandBuildUp";
-import IPLAuction from "./Components/EventDetails.js/IPLAuction";
-import CreaterCorner from "./Components/EventDetails.js/CreaterCorner";
-import IdeathonPitch from "./Components/EventDetails.js/IdeathonPitch";
-import LaughterLounge from "./Components/EventDetails.js/LaughterLounge";
-import LeadershipSummit from "./Components/EventDetails.js/LeadershipSummit";
-import NetworkingLunch from "./Components/EventDetails.js/NetworkingLunch";
-import TraderCamp from "./Components/EventDetails.js/TraderCamp";
+import StartupOddesy from "./Components/EventDetails/StartupOddesy";
+import Competitions from "./Components/EventDetails/Competitions";
+import BrandBuildUp from "./Components/EventDetails/BrandBuildUp";
+import IPLAuction from "./Components/EventDetails/IPLAuction";
+import CreaterCorner from "./Components/EventDetails/CreaterCorner";
+import IdeathonPitch from "./Components/EventDetails/IdeathonPitch";
+import LaughterLounge from "./Components/EventDetails/LaughterLounge";
+import LeadershipSummit from "./Components/EventDetails/LeadershipSummit";
+import NetworkingLunch from "./Components/EventDetails/NetworkingLunch";
+import TraderCamp from "./Components/EventDetails/TraderCamp";
 
 import { shortLogo } from "./assets";
 

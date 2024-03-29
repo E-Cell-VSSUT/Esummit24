@@ -83,39 +83,28 @@ h1 {
   font-weight: 100;  
   max-width: 60%; 
   
-  h1 {
-    font-family: var(--font-title);
-    letter-spacing: 1.5px;
-    font-weight: 100;
-    font-size: 1.4em;    
-  }
-  
-  h2, h3 {
-    font-family: var(--font-title);
-    letter-spacing: 1.5px;
-    font-weight: 400;
-    font-size: 1.4em;
-  }
-  
-  .event {
+
+}
+  .timeline .event {
     border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
     padding-bottom: calc(var(--spacing) * 0.5);
     margin-bottom: var(--spacing);  
     position: relative;
+  }
 
-    &:last-of-type { 
+    .event:last-of-type { 
       padding-bottom: 0;
       margin-bottom: 0; 
       border: none;      
     }
 
-    &:before, &:after {
+    .event:before, .event:after {
       position: absolute;
       display: block;
       top: 0;
     }
 
-    &:before {
+    .event:before {
       left: calc(((var(--date) * 0.6) + var(--spacing) + var(--line) + var(--dot) + (var(--dotborder) * 2)) * 1.5 * -1);    
       color: rgba(255, 255, 255, 0.4);    
       content: attr(data-date);
@@ -126,7 +115,7 @@ h1 {
       font-family: var(--font-title);
     }
 
-    &:after {
+    .event:after {
       box-shadow: 0 0 0 var(--dotborder) rgba(0, 79, 252, 1);    
       left: -60px;   
       background: rgba(35, 39, 45, 1);    
@@ -136,5 +125,19 @@ h1 {
       content: "";
       top: 5px;
     }
-  }
+  
+
+
+.timeline h1 {
+  font-family: var(--font-title);
+  letter-spacing: 1.5px;
+  font-weight: 100;
+  font-size: 1.4em;    
+}
+
+.timeline h2, h3 {
+  font-family: var(--font-title);
+  letter-spacing: 1.5px;
+  font-weight: 400;
+  font-size: 1.4em;
 }
