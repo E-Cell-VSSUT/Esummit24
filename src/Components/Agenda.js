@@ -23,7 +23,7 @@ const Agenda = () => {
   return (
     <div className="agenda-container">
       <div className="agenda-header">
-        <h1>Agenda</h1>
+        <h1 className="main-font2">Agenda</h1>
       </div>
       <div className="topbar">
         <button

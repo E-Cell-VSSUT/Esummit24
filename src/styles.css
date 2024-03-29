@@ -21,6 +21,10 @@ body {
   font-weight: 500;
   
 }
+.main-font2{
+  font-family: Saira Stencil One, sans-serif;
+  text-transform: uppercase;
+}
 
 body {
   /* font-family: Arial Black, sans-serif; */
