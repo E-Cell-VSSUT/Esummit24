@@ -7,7 +7,7 @@ import { CiInstagram } from "react-icons/ci";
 
 const Speaker = () => {
   return (
-    <div className="bg-[#161b22]"> 
+    <div className="bg-[#001530]"> 
       <div className="h-[100%] w-[100%] bg-[url('https://media.licdn.com/dms/image/C4D12AQGMPq_g1qxXOw/article-cover_image-shrink_720_1280/0/1640755559457?e=1717027200&v=beta&t=aH3ds0Brt5k9Ue6_qRCllyfAGQZSeOQHIMLSEWIYuUg')] bg-no-repeat bg-cover mb-[100px]">
 
 
@@ -23,9 +23,7 @@ const Speaker = () => {
           <br/>
           {/* <span className='white'>EXPO</span> */}
       </div>
-      <div className='button main-font'>
-          <button>REGISTER</button>
-      </div>
+      
   </div>
 </div>
       </div>
@@ -40,7 +38,7 @@ const Speaker = () => {
           </p>
         </div>
         <div className="flex flex-col justify-center items-center gap-y-10">
-          <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white">Our Speakers</h1>
+          <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl main-font2 dark:text-white">Our Speakers</h1>
 
           <div className="flex justify-center items-center flex-wrap gap-10 ml-[10%] mr-[10%]">
             <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
@@ -164,7 +162,7 @@ const Speaker = () => {
             {/* contact */}
 
             <div className="flex justify-center items-center flex-wrap flex-col gap-[100px] lg:gap-0">
-              <h1 className="text-white text-2xl lg:text-5xl">Contact Us</h1>
+              <h1 className="text-white text-2xl lg:text-5xl main-font2">Contact Us</h1>
               <div className="team_container">
                 {teams.lead.map((team) => (
                   <div class="wrapper ">

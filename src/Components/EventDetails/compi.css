@@ -69,7 +69,7 @@ h1 {
   border-left: var(--line) solid var(--color-primary);
   border-bottom-right-radius: var(--radius);
   border-top-right-radius: var(--radius);    
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(18, 31, 60, 0.173);
   color: rgba(255, 255, 255, 0.873);
   font-family: var(--font-text);  
   margin: var(--spacing) auto;  
@@ -80,8 +80,10 @@ h1 {
   padding: var(--spacing);   
   list-style: none;
   text-align: left;  
-  font-weight: 100;  
+  font-weight: 100; 
+  min-width: 250px;
   max-width: 60%; 
+  
   
 
 }

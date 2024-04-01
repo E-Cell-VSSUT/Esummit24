@@ -7,7 +7,7 @@ import { CiInstagram } from "react-icons/ci";
 
 const Sponsors = () => {
   return (
-    <div className="bg-[#161b22]"> 
+    <div className="bg-[#001530]"> 
       <div className="h-[100%] w-[100%] bg-[url('https://t3.ftcdn.net/jpg/02/32/64/60/360_F_232646034_erlW1pNQw6vlPZlarM504wUbOFClpfTJ.jpg')] bg-no-repeat bg-cover mb-[100px]">
 
 
@@ -21,11 +21,11 @@ const Sponsors = () => {
             <div className='header'>
                 <span className='green '>SPONSORS</span>
                 <br/>
-                <span className='white'></span>
+                <span className='white'>& PARTNERS</span>
             </div>
-            <div className='button'>
+            {/* <div className='button'>
                 <button className="main-font">REGISTER</button>
-            </div>
+            </div> */}
         </div>
     </div>
 
@@ -33,7 +33,7 @@ const Sponsors = () => {
 
       <div className="flex flex-col justify-center items-center gap-y-10">
         <div className="flex justify-center items-center flex-wrap pl-[10px] pr-[10px]">
-          <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 hover:dark:text-gray-300">
+          <p className="mb-6 text-lg main-font font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 hover:dark:text-gray-300">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est vitae,
             cumque reprehenderit molestias quaerat odio culpa. Ratione
             perferendis, a fugit, eaque doloribus ab maxime totam voluptatem
@@ -42,11 +42,11 @@ const Sponsors = () => {
           </p>
         </div>
         <div className="flex flex-col justify-center items-center gap-10">
-          <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white">Sponsors</h1>
+          <h1 className="mb-4 text-4xl main-font2 font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white">Sponsors</h1>
 
     <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
 
-          <div className="flex flex-col justify-center items-center gap-10">
+          <div className="flex flex-col s-transform justify-center items-center gap-10 ">
               <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]">
             </div>
@@ -59,7 +59,7 @@ const Sponsors = () => {
 
 
 
-          <div className="flex flex-col justify-center items-center gap-10">
+          <div className="flex flex-col s-transform justify-center items-center gap-10">
               <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]">
             </div>
@@ -72,7 +72,7 @@ const Sponsors = () => {
 
 
 
-          <div className="flex flex-col justify-center items-center gap-10">
+          <div className="flex flex-col s-transform justify-center items-center gap-10">
               <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]">
             </div>
@@ -84,7 +84,7 @@ const Sponsors = () => {
           </div>
 
 
-          <div className="flex flex-col justify-center items-center gap-10">
+          <div className="flex flex-col s-transform justify-center items-center gap-10">
               <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]">
             </div>
@@ -96,7 +96,7 @@ const Sponsors = () => {
           </div>
 
 
-          <div className="flex flex-col justify-center items-center gap-10">
+          <div className="flex flex-col s-transform justify-center items-center gap-10">
               <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]">
             </div>
@@ -108,7 +108,7 @@ const Sponsors = () => {
           </div>
 
 
-          <div className="flex flex-col justify-center items-center gap-10">
+          <div className="flex flex-col s-transform justify-center items-center gap-10">
               <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]">
             </div>
@@ -120,7 +120,7 @@ const Sponsors = () => {
           </div>
 
 
-          <div className="flex flex-col justify-center items-center gap-10">
+          <div className="flex flex-col s-transform justify-center items-center gap-10">
               <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]">
             </div>
@@ -134,8 +134,8 @@ const Sponsors = () => {
           </div>
 {/* contact */}
           <div className="flex justify-center items-center flex-wrap flex-col gap-[100px] lg:gap-0">
-            <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white">Contact Us</h1>
-          <div className="team_container">
+            <h1 className=" text-4xl main-font2 leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white">Contact Us</h1>
+          <div className="team_container ">
           {teams.lead.map((team) => (
             <div class="wrapper ">
               <div class="img-area">

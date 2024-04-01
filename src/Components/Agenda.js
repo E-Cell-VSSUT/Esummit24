@@ -21,7 +21,7 @@ const Agenda = () => {
     setDay(dayNumber);
   };
   return (
-    <div className="agenda-container">
+    <div className="agenda-container bg-[#001530]">
       <div className="agenda-header">
         <h1 className="main-font2">Agenda</h1>
       </div>
@@ -95,8 +95,8 @@ const Agenda = () => {
         ))
       ) : (
         agenda.Day2?.map((item, index) => (
-          <div className="agenda" key={index}>
-            <div className="agenda-content">
+          <div className="agenda " key={index}>
+            <div className="agenda-content ">
               <div className="agenda-header">
                 <p className="topic">
                   <span className="topic-content">Topic: </span>

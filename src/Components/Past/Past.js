@@ -28,7 +28,7 @@ const Services = () => {
       alignItems="center"
       overflow={"hidden"}
     >
-      <Typography variant="displayLarge" fontSize={"30px"} color={"white"} textAlign="center" className="main-font2">
+      <Typography variant="displayLarge"  color={"white"} textAlign="center" className="text-white text-2xl xl:text-5xl main-font2">
         PAST SPEAKERS
       </Typography>
 
@@ -79,7 +79,7 @@ const Services = () => {
           </Stack>
         </Stack>
 
-        <Typography variant="displayLarge" fontSize={"30px"} color={"white"} textAlign="center" marginTop={5} marginBottom={5} className="main-font2">
+        <Typography variant="displayLarge"  color={"white"} textAlign="center" marginTop={5} marginBottom={5} className="text-white text-2xl xl:text-5xl main-font2">
         PAST SPONSORS
       </Typography>
 
