@@ -64,7 +64,7 @@ export const events = [
     logo: base,
     content:
       "An intensive program designed to accelerate the growth and development of early-stage companies through mentorship, education, and networking opportunities.",
-    regUrl: "",
+    regUrl: "https://unstop.com/workshops-webinars/startup-odyssey-e-summit-2024-veer-surendra-sai-university-of-technology-vssut-odisha-943558",
     eventDet: "",
     route: "/StartupOddesy"
   },
@@ -74,7 +74,7 @@ export const events = [
     logo: brand,
     content:
       " Unleashing creativity to craft compelling brand narratives that captivate audiences and drive success.",
-    regUrl: "",
+    regUrl: "https://unstop.com/competitions/brand-it-up-e-summit-2024-veer-surendra-sai-university-of-technology-vssut-odisha-943567",
     eventDet: "",
     route: "/BrandBuildUP"
   },
@@ -84,7 +84,7 @@ export const events = [
     logo: auction,
     content:
       "Participate in a real-time simulation where you'll experience the adrenaline rush of bidding in real time simulation.      ",
-    regUrl: "",
+    regUrl: "https://unstop.com/events/ipl-auction-e-summit-2024-veer-surendra-sai-university-of-technology-vssut-odisha-945762",
     eventDet: "",
     route: "/IPLAuction"
   },
@@ -95,7 +95,7 @@ export const events = [
     content:
       "Accelerate your trading skills with intensive hands-on learning in our comprehensive trading bootcamp.",
     regUrl: "",
-    eventDet: "",
+    eventDet: "https://unstop.com/events/traders-bootcamp-e-summit-2024-veer-surendra-sai-university-of-technology-vssut-odisha-943575",
     route: "/TraderCamp"
   },
   {
@@ -104,7 +104,7 @@ export const events = [
     logo: "https://2k21.s3.amazonaws.com/event_logos/CCC.png",
     content:
       "A panel of content creation powerhouses! Hear diverse perspectives and success stories.",
-    regUrl: "",
+    regUrl: "https://unstop.com/events/creators-corner-e-summit-2024-veer-surendra-sai-university-of-technology-vssut-odisha-943580",
     eventDet: "",
     route: "/CreaterCorner"
   },
@@ -114,17 +114,17 @@ export const events = [
     logo: business,
     content:
       "Learn cutting-edge business strategies, gain inspiration from visionary leaders, and walk away with actionable tools to empower your team and achieve results.",
-    regUrl: "",
+    regUrl: "https://unstop.com/workshops-webinars/leaderships-summit-e-summit-2024-veer-surendra-sai-university-of-technology-vssut-odisha-943578",
     eventDet: "",
     route: "/LeadershipSummit"
   },
   {
     id: 7,
-    title: "Networking Lunch ",
+    title: "Food Fest",
     logo: networking,
     content:
       "Fuel your body and forge connections! Enjoy a delicious lunch while interacting with fellow attendees, potential collaborators, and industry leaders.      ",
-    regUrl: "",
+    regUrl: "https://unstop.com/events/food-fest-e-summit-2024-veer-surendra-sai-university-of-technology-vssut-odisha-946021",
     eventDet: "",
     route: "/NetWorkingLunch"
   },
@@ -134,7 +134,7 @@ export const events = [
     logo: idea,
     content:
       "Witness the birth of groundbreaking ideas!  Support and be inspired by innovative startups as they showcase their concepts and compete for recognition. ",
-    regUrl: "",
+    regUrl: "https://unstop.com/competitions/ideathon-pitch-e-summit-2024-veer-surendra-sai-university-of-technology-vssut-odisha-943323",
     eventDet: "",
     route: "/IdeathonPitch"
   },
@@ -144,7 +144,7 @@ export const events = [
     logo: standup,
     content:
       "De-stress and unwind! Enjoy a side-splitting performance by a comic as laughter is the best medicine.      ",
-    regUrl: "",
+    regUrl: "https://unstop.com/events/the-laughter-lounge-e-summit-2024-veer-surendra-sai-university-of-technology-vssut-odisha-943586",
     eventDet: "",
     route: "/LaughterLounge"
   }
@@ -278,7 +278,27 @@ export const pastSpon = {
     {
       logo: unity,
       brand: "UNITY",
+    }, {
+      logo: sambad,
+      brand: "Sambad",
     },
+    {
+      logo: nbt,
+      brand: "NBT",
+    },
+    {
+      logo: kanak,
+      brand: "Kanak News",
+    },
+    {
+      logo: top,
+      brand:"Top-Ramen",
+    },
+    {
+      logo: unity,
+      brand: "UNITY",
+    },
+
     {
       logo: zebi,
       brand: "ZEBI",
@@ -299,6 +319,7 @@ export const pastSpon = {
       logo: girlscript,
       brand: "Girl Script",
     },
+    
   ],
 };
 

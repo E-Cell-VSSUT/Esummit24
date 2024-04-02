@@ -5,11 +5,14 @@ import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { LiaLinkedinIn } from "react-icons/lia";
 import { CiInstagram } from "react-icons/ci";
+import Accordion from "../Accordion.js";
 import "./compi.css";
+import { Link } from "react-router-dom";
+
 
 const LeadershipSummit = () => {
   return (
-    <div className="bg-[#161b22]">
+    <div className="bg-[#001530]">
       <div className="h-[100%] w-[100%] bg-[url('https://emeritus.org/in/wp-content/uploads/sites/3/2023/09/Untitled-1000-%C3%97-720-px-25.png')] bg-no-repeat bg-center opacity-85 bg-cover mb-[100px]">
         <div className="hero-container">
           <div className="background">
@@ -32,20 +35,26 @@ const LeadershipSummit = () => {
               <br />
               <span className="white">SUMMIT</span>
             </div>
-            <div className="button">
-              <button>REGISTER</button>
+            <div className="button ">
+              <button className=""><Link className=" hover:no-underline hover:text-slate-900 " target="blank" to="https://unstop.com/workshops-webinars/leaderships-summit-e-summit-2024-veer-surendra-sai-university-of-technology-vssut-odisha-943578">REGISTER</Link></button>
+              <h3 className="text mt-2 text-slate-100">Registration Opens!</h3>
             </div>
           </div>
         </div>
       </div>
       <div className="flex flex-col justify-center items-center gap-y-10">
+        <h1 className="mb-4 text-4xl main-font2 font-extrabold leading-none tracking-tight md:text-5xl lg:text-5xl dark:text-white">
+          About
+        </h1>
         <div className="flex justify-center items-center flex-wrap pl-[10px] pr-[10px]">
-          <p className="text-sm sm:4xl text-white ml-[10%] mr-[10%]">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est vitae,
-            cumque reprehenderit molestias quaerat odio culpa. Ratione
-            perferendis, a fugit, eaque doloribus ab maxime totam voluptatem
-            ipsam, animi unde. Iste tempora nobis rem dolores, a ullam
-            consequatur optio nihil dignissimos.
+          <p className="mb-6 text-lg main-font font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400 hover:dark:text-gray-300">
+            The Leadership Summit serves as a platform for experts and thought
+            leaders to engage in structured conversations on various topics.
+            Panel discussions offer diverse perspectives, in-depth analysis, and
+            actionable insights on business trends, industry challenges, social
+            issues, and technological advancements. Attendees gain valuable
+            knowledge and guidance, fostering personal and professional growth
+            in a dynamic and collaborative environment.
           </p>
         </div>
         <div className="flex flex-col justify-center items-center gap-y-[50px]">
@@ -54,47 +63,22 @@ const LeadershipSummit = () => {
           <div className="w-full flex justify-center items-center flex-col">
             {/* <!-- The Timeline --> */}
             <div id="timeline-content">
-              <h1 className="text-3xl sm:text-4xl text-white ">Timeline</h1>
+              <h1 className="text-3xl main-font2 sm:text-4xl text-white ">
+                Time line
+              </h1>
 
               <ul class="timeline ">
-                <li class="event" data-date="65Million B.C.">
-                  <h3>Dinosaurs Roamed the Earth</h3>
-                  <p>RAWWWWWWRRR 🐢🦂</p>
-                </li>
-                <li class="event" data-date="2005">
-                  <h3>Creative Component Launched</h3>
-                  <p>"We can be all things to all people!" 📣</p>
-                </li>
-                <li class="event" id="date" data-date="2009">
-                  <h3>Squareflair was Born</h3>
-                  <p></p> <p>"We can be all things to Squarespace users!" 📣</p>
-                </li>
-
-                <li class="event" data-date="2021">
-                  <h3>Squareflair Today</h3>
-                  <p>"We design and build from scratch!" 📣</p>{" "}
-                  <p>
-                    When we say{" "}
-                    <em>
-                      <strong>100% custom</strong>
-                    </em>{" "}
-                    we mean it— and we build all sites on the Squarespace
-                    Developer platform.
+                <li class="event " data-date="event">
+                  <h3 className=" ">7th April 2024</h3>
+                  <p className="text-xs">9:00 AM - 1:00 PM</p>
+                  <p className="mb-2">
+                    Disscution on: <br />
                   </p>
                   <p>
-                    Did you know that all of our pixels are hand-forged from the
-                    rarest of subpixels grown and harvested in the{" "}
-                    <em>Nerd Forest</em>? <br />
-                    🤜💥🤛
-                  </p>
-                  <p>
-                    <strong>
-                      Our success can be measured by lives and brands enhanced
-                      by 9+ years of 100% Squarespace-focused service!
-                    </strong>
-                  </p>
-                  <p>
-                    <a href="https://www.squareflair.com">squareflair.com</a>
+                    Leadership Strategy <br /> Strategic Decision-Making <br />
+                    Innovation and Creativity <br />
+                    Effective Communication <br /> Team Dynamics and
+                    Collaboration <br /> Ethical Leadership
                   </p>
                 </li>
               </ul>
@@ -104,13 +88,41 @@ const LeadershipSummit = () => {
           {/* faq */}
           <div className="w-[100vw] flex flex-col justify-center items-center gap-5 decoration-0">
             <h1 className="text-3xl sm:text-4xl text-white ">FAQs</h1>
-            <Faq />
+            <div className=" w-[70%] h-full p-10 gap-4 border-4 border-[#607ca5] rounded-xl decoration-0 ">
+              <div className=" py-1">
+                <Accordion
+                  title="What is the Leadership Summit at E-Summit?"
+                  answer="The Leadership Summit at E-Summit is a platform for experts and thought leaders to engage in structured conversations on various topics related to leadership."
+                />
+              </div>
+              <div className=" py-1">
+                <Accordion
+                  title="When and where will the Leadership Summit take place?"
+                  answer="The Leadership Summit will take place on Day 2 of E-Summit, from 9:00 AM to 1:00 PM."
+                />
+              </div>
+              <div className=" py-1">
+                <Accordion
+                  title="Who are the speakers or panelists at the Leadership Summit?"
+                  answer="The speakers and panelists at the Leadership Summit are experts and thought leaders in their respective fields, providing diverse perspectives and actionable insights."
+                />
+              </div>
+              <div className=" py-1">
+                <Accordion
+                  title="Will there be opportunities for attendees to ask questions or participate in discussions?"
+                  answer="Yes, attendees will have the opportunity to engage in structured conversations, ask questions, and participate in discussions during the panel sessions."
+                />
+              </div>
+              
+            </div>
           </div>
 
           {/* contact */}
 
           <div className="flex justify-center items-center flex-wrap flex-col gap-[100px] lg:gap-0">
-            <h1 className="text-white text-2xl lg:text-5xl">Contact Us</h1>
+            <h1 className="text-white text-2xl lg:text-4xl main-font2">
+              Contact Us
+            </h1>
             <div className="team_container">
               {teams.lead.map((team) => (
                 <div class="wrapper">

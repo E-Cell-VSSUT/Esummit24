@@ -90,7 +90,7 @@ const App = () => {
           <Route
             path="/Sponsors"
             element={
-              <div className="bg-[#161b22] bg-no-repeat bg-cover">
+              <div className="bg-[#001530] bg-no-repeat bg-cover">
                 <Sponsors />
               </div>
             }
@@ -98,7 +98,7 @@ const App = () => {
           <Route
             path="/event"
             element={
-              <div className=" bg-[#161b22] bg-no-repeat bg-cover">
+              <div className=" bg-[#001530] bg-no-repeat bg-cover">
                 <Event />
               </div>
             }
@@ -106,7 +106,7 @@ const App = () => {
           <Route
             path="/contact"
             element={
-              <div className="bg-[#161b22] bg-no-repeat bg-cover">
+              <div className="bg-[#001530] bg-no-repeat bg-cover">
                 <Teams />
               </div>
             }
