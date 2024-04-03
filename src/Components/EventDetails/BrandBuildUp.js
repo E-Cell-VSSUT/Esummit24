@@ -1,5 +1,5 @@
 import React from "react";
-import { teams } from "../../constants/index.js";
+import { SponsorTeams } from "../../constants/index.js";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { LiaLinkedinIn } from "react-icons/lia";
@@ -129,7 +129,7 @@ const BrandBuildUp = () => {
               Contact Us
             </h1>
             <div className="team_container">
-              {teams.lead.map((team) => (
+              {SponsorTeams.lead.map((team) => (
                 <div class="wrapper">
                   <div class="img-area">
                     <div class="inner-area">

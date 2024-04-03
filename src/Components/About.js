@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import "../styles.css";
+import video from '../assets/Team/video.mp4'
 
 function ScrollSection() {
   const sectionRef = useRef(null);
@@ -130,17 +131,18 @@ function ScrollSection() {
             <div className="info2">
               <div className="videodiv">
                 <h1 style={{ paddingBottom: "10px", color: "white" }} className="main-font text-lg sm:text-2xl">
-                  After Movie
+                  Teaser
                 </h1>
 
-                  <iframe
+                  <video
                     className="video"
-                    src="https://www.youtube.com/embed/tA8h_exda3E?si=0CKILmSmZ6MeTQVT"
+                    src={video}
                     title="YouTube video player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     allowfullscreen
-                  ></iframe>
+                    controls
+                  ></video>
         
 
               </div>

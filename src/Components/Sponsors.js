@@ -1,9 +1,10 @@
 import React from "react";
-import { teams } from "../constants";
+import { SponsorTeams } from "../constants";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { LiaLinkedinIn } from "react-icons/lia";
 import { CiInstagram } from "react-icons/ci";
+import Pc from '../assets/sponsors/pc.jpg'
 
 const Sponsors = () => {
   return (
@@ -47,12 +48,12 @@ const Sponsors = () => {
     <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
 
           <div className="flex flex-col s-transform justify-center items-center gap-10 ">
-              <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
+              <h1 className="text-md sm:text-2xl text-white">Hotel Sponsors</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]">
             </div>
             <div className="flex justify-center items-center flex-wrap">
               <div className="h-[200px] w-[300px] flex justify-center items-center bg-[#fff] rounded-xl border border-solid border-yellow-300">
-                <img src="https://2k21.s3.amazonaws.com/partners/Inc42_Black-removebg-preview.png" />
+                <img src={Pc} />
               </div>
             </div>
           </div>
@@ -136,7 +137,7 @@ const Sponsors = () => {
           <div className="flex justify-center items-center flex-wrap flex-col gap-[100px] lg:gap-0">
             <h1 className=" text-4xl main-font2 leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white">Contact Us</h1>
           <div className="team_container ">
-          {teams.lead.map((team) => (
+          {SponsorTeams.lead.map((team) => (
             <div class="wrapper ">
               <div class="img-area">
                 <div class="inner-area">

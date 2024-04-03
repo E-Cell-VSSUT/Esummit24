@@ -1,6 +1,5 @@
 import React from "react";
 import Faq from "../Faq.js";
-import { teams } from "../../constants/index.js";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { LiaLinkedinIn } from "react-icons/lia";
@@ -8,6 +7,7 @@ import { CiInstagram } from "react-icons/ci";
 import Accordion from "../Accordion.js";
 import "./compi.css";
 import { Link } from "react-router-dom";
+import { EventTeams } from "../../constants/index.js";
 
 
 const LaughterLounge = () => {
@@ -118,7 +118,7 @@ const LaughterLounge = () => {
               Contact Us
             </h1>
             <div className="team_container">
-              {teams.lead.map((team) => (
+              {EventTeams.lead.map((team) => (
                 <div class="wrapper">
                   <div class="img-area">
                     <div class="inner-area">
