@@ -38,6 +38,22 @@ import mayank from './mayank.jpg'
 import ajit from './ajit.jpg'
 import shortLogo from './1c.png'
 
+
+import Nikunj_Agarwal from './Team/Nikunj_Agarwal.jpg'
+import Aneek from './Team/Aneek.jpg'
+import Anshu from './Team/anshu.jpg'
+import Ishita from './Team/Isita Naik.jpg'
+import Debi from './Team/Debi.jpg'
+import Shubham from './Team/Subham CONFIRM.jpg'
+import Angela from './Team/Angela.png'
+import Rahul from './Team/rahul.jpg'
+import Prateek from './Team/prateek.jpg'
+import Payal from './Team/Payal.jpg'
+import Keshav from './Team/Keshav.jpg'
+import Yubesh from './Team/yubesh.jpg'
+import Shailesh from './Team/Shaileshmishra.jpg'
+import Shradha from './Team/Shradha.jpeg'
+
 export {
-    bg,logo,cave,ecell,mainbg,brand,base,auction,stock,business,content,networking,idea,standup,sambad,nbt,kanak,top,unity,zebi,leadangel,radio,fablab,girlscript,nilesh,manas,biswajit,gaurav,nagesh,suparna,mayank,anarpurna,ajit,shortLogo
+    bg,logo,cave,ecell,mainbg,brand,base,auction,stock,business,content,networking,idea,standup,sambad,nbt,kanak,top,unity,zebi,leadangel,radio,fablab,girlscript,nilesh,manas,biswajit,gaurav,nagesh,suparna,mayank,anarpurna,ajit,shortLogo,Nikunj_Agarwal,Aneek,Anshu,Ishita,Payal,Prateek,Rahul,Angela,Shubham,Debi,Shailesh,Yubesh,Keshav,Shradha
 }

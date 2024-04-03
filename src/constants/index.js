@@ -1,4 +1,4 @@
-import { back, logo, bg,brand, base,auction,stock,business,content, networking, idea, standup,sambad,nbt,kanak,top,unity,zebi,leadangel, radio,fablab,girlscript,nilesh,manas,biswajit,gaurav,nagesh,suparna,mayank,anarpurna,ajit } from "../assets";
+import { back, logo, bg,brand, base,auction,stock,business,content, networking, idea, standup,sambad,nbt,kanak,top,unity,zebi,leadangel, radio,fablab,girlscript,nilesh,manas,biswajit,gaurav,nagesh,suparna,mayank,anarpurna,ajit,Nikunj_Agarwal,Aneek,Anshu,Ishita,Payal,Prateek,Rahul,Angela,Shubham,Debi,Shailesh,Yubesh, Keshav,Shradha } from "../assets";
 
 export const navLinks = [
   {
@@ -34,21 +34,21 @@ export const navLinks = [
   },
 ];
 
-export const teams = {
+export const TechTeams = {
   lead: [
     {
-      name: "A ",
-      designation: "tech lead",
-      url: "https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      name: "Nikunj Agrawal",
+      designation: "Tech lead",
+      url: Nikunj_Agarwal,
       ilink: "#",
       flink: "#",
       llink: "https://www.linkedin.com/in/anshu-agrawal-b517b9244/",
       tlink: "https://twitter.com/008Anshu",
     },
     {
-      name: "Y ",
-      designation: "tech lead ",
-      url: "https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      name: "Aneek Guha",
+      designation: "Tech lead ",
+      url: Aneek,
       ilink: "https://instagram.com/__shradha_032?igshid=Y2M0YTlkZGNmOQ==",
       flink: "#",
       llink: "https://www.linkedin.com/in/shradha-mohapatra-818b05238",
@@ -56,6 +56,147 @@ export const teams = {
     },
   ],
 };
+export const GdTeams = {
+  lead: [
+    {
+      name: "Keshav Agrawal",
+      designation: "GD lead",
+      url: Keshav,
+      ilink: "#",
+      flink: "#",
+      llink: "https://www.linkedin.com/in/anshu-agrawal-b517b9244/",
+      tlink: "https://twitter.com/008Anshu",
+    },
+    {
+      name: "Yubesh Deheri",
+      designation: "GD lead ",
+      url: Yubesh,
+      ilink: "https://instagram.com/__shradha_032?igshid=Y2M0YTlkZGNmOQ==",
+      flink: "#",
+      llink: "https://www.linkedin.com/in/shradha-mohapatra-818b05238",
+      tlink: "#",
+    },
+  ],
+};
+
+export const PrTeams = {
+  lead: [
+    {
+      name: "Debi Prasad",
+      designation: "PR lead",
+      url: Debi,
+      ilink: "#",
+      flink: "#",
+      llink: "https://www.linkedin.com/in/anshu-agrawal-b517b9244/",
+      tlink: "https://twitter.com/008Anshu",
+    },
+    {
+      name: "Ishita Naik",
+      designation: "PR lead ",
+      url: Ishita,
+      ilink: "https://instagram.com/__shradha_032?igshid=Y2M0YTlkZGNmOQ==",
+      flink: "#",
+      llink: "https://www.linkedin.com/in/shradha-mohapatra-818b05238",
+      tlink: "#",
+    },
+  ],
+};
+
+export const EventTeams = {
+  lead: [
+    {
+      name: "Shailesh",
+      designation: "Event lead",
+      url: Shailesh,
+      ilink: "#",
+      flink: "#",
+      llink: "https://www.linkedin.com/in/anshu-agrawal-b517b9244/",
+      tlink: "https://twitter.com/008Anshu",
+    },
+    {
+      name: "Shubham",
+      designation: "Event lead ",
+      url: Shubham,
+      ilink: "https://instagram.com/__shradha_032?igshid=Y2M0YTlkZGNmOQ==",
+      flink: "#",
+      llink: "https://www.linkedin.com/in/shradha-mohapatra-818b05238",
+      tlink: "#",
+    },
+  ],
+};
+
+export const SponsorTeams = {
+  lead: [
+    {
+      name: "Rahul",
+      designation: "Sponsorship lead",
+      url: Rahul,
+      ilink: "#",
+      flink: "#",
+      llink: "https://www.linkedin.com/in/anshu-agrawal-b517b9244/",
+      tlink: "https://twitter.com/008Anshu",
+    },
+    {
+      name: "Abhijeet",
+      designation: "Sponsorship lead ",
+      url: Shubham,
+      ilink: "https://instagram.com/__shradha_032?igshid=Y2M0YTlkZGNmOQ==",
+      flink: "#",
+      llink: "https://www.linkedin.com/in/shradha-mohapatra-818b05238",
+      tlink: "#",
+    },
+  ],
+};
+
+
+
+export const SocialTeams = {
+  lead: [
+    {
+      name: "Prateek",
+      designation: "Social Media Lead",
+      url: Prateek,
+      ilink: "#",
+      flink: "#",
+      llink: "https://www.linkedin.com/in/anshu-agrawal-b517b9244/",
+      tlink: "https://twitter.com/008Anshu",
+    },
+    {
+      name: "Payal",
+      designation: "Social Media Lead",
+      url: Payal,
+      ilink: "https://instagram.com/__shradha_032?igshid=Y2M0YTlkZGNmOQ==",
+      flink: "#",
+      llink: "https://www.linkedin.com/in/shradha-mohapatra-818b05238",
+      tlink: "#",
+    },
+  ],  
+};
+
+export const CoordinatorTeams = {
+  lead: [
+    {
+      name: "Anshu Agrawal",
+      designation: "Co-Ordinator",
+      url: Anshu,
+      ilink: "#",
+      flink: "#",
+      llink: "https://www.linkedin.com/in/anshu-agrawal-b517b9244/",
+      tlink: "https://twitter.com/008Anshu",
+    },
+    {
+      name: "Shradha Mohapatra",
+      designation: "Co-Ordinator",
+      url: Shradha,
+      ilink: "https://instagram.com/__shradha_032?igshid=Y2M0YTlkZGNmOQ==",
+      flink: "#",
+      llink: "https://www.linkedin.com/in/shradha-mohapatra-818b05238",
+      tlink: "#",
+    },
+  ],
+};
+
+
 
 export const events = [
   {

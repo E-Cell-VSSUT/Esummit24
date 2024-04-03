@@ -1,10 +1,11 @@
 import "../styles.css";
 
-import { teams } from "../constants";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { LiaLinkedinIn } from "react-icons/lia";
 import { CiInstagram } from "react-icons/ci";
+
+import { TechTeams,GdTeams,PrTeams,EventTeams,SponsorTeams,CoordinatorTeams,SocialTeams } from "../constants";
 
 const Teams = () => {
   return (
@@ -17,7 +18,7 @@ const Teams = () => {
         For any Website and Technical Queries
         </h1>
         <div className="team_container">
-          {teams.lead.map((team) => (
+          {TechTeams.lead.map((team) => (
             <div class="wrapper ">
               <div class="img-area">
                 <div class="inner-area">
@@ -72,7 +73,7 @@ const Teams = () => {
         For any Speaker related Queries
         </h1>
         <div className="team_container">
-          {teams.lead.map((team) => (
+          {PrTeams.lead.map((team) => (
             <div class="wrapper ">
               <div class="img-area">
                 <div class="inner-area">
@@ -127,7 +128,7 @@ const Teams = () => {
         For any Events realted Queries
         </h1>
         <div className="team_container">
-          {teams.lead.map((team) => (
+          {EventTeams.lead.map((team) => (
             <div class="wrapper ">
               <div class="img-area">
                 <div class="inner-area">
@@ -182,7 +183,7 @@ const Teams = () => {
         For any Media related Queries
         </h1>
         <div className="team_container">
-          {teams.lead.map((team) => (
+          {SocialTeams.lead.map((team) => (
             <div class="wrapper ">
               <div class="img-area">
                 <div class="inner-area">
@@ -237,7 +238,7 @@ const Teams = () => {
         For any Sponsorship related Queries
         </h1>
         <div className="team_container">
-          {teams.lead.map((team) => (
+          {SponsorTeams.lead.map((team) => (
             <div class="wrapper ">
               <div class="img-area">
                 <div class="inner-area">
@@ -292,7 +293,7 @@ const Teams = () => {
         For any Design related Queries
         </h1>
         <div className="team_container">
-          {teams.lead.map((team) => (
+          {GdTeams.lead.map((team) => (
             <div class="wrapper ">
               <div class="img-area">
                 <div class="inner-area">
@@ -347,7 +348,7 @@ const Teams = () => {
         Overall Coordinators
         </h1>
         <div className="team_container">
-          {teams.lead.map((team) => (
+          {CoordinatorTeams.lead.map((team) => (
             <div class="wrapper ">
               <div class="img-area">
                 <div class="inner-area">

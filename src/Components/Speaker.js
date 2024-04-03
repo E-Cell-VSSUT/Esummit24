@@ -1,5 +1,5 @@
 import React from "react";
-import { teams } from "../constants";
+import { PrTeams } from "../constants";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { LiaLinkedinIn } from "react-icons/lia";
@@ -164,7 +164,7 @@ const Speaker = () => {
             <div className="flex justify-center items-center flex-wrap flex-col gap-[100px] lg:gap-0">
               <h1 className="text-white text-2xl lg:text-5xl main-font2">Contact Us</h1>
               <div className="team_container">
-                {teams.lead.map((team) => (
+                {PrTeams.lead.map((team) => (
                   <div class="wrapper ">
                     <div class="img-area">
                       <div class="inner-area">
