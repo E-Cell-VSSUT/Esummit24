@@ -345,7 +345,7 @@ const Teams = () => {
 
       <div className="flex flex-col justify-center items-center gap-20 sm:gap-5 w-full mt-[15px] ">
         <h1 className="text-2xl main-font2 xl:text-4xl text-white">
-        Overall Coordinators
+        Organisers
         </h1>
         <div className="team_container">
           {CoordinatorTeams.lead.map((team) => (

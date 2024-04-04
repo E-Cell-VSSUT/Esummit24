@@ -1,4 +1,4 @@
-import { back, logo, bg,brand, base,auction,stock,business,content, networking, idea, standup,sambad,nbt,kanak,top,unity,zebi,leadangel, radio,fablab,girlscript,nilesh,manas,biswajit,gaurav,nagesh,suparna,mayank,anarpurna,ajit,Nikunj_Agarwal,Aneek,Anshu,Ishita,Payal,Prateek,Rahul,Angela,Shubham,Debi,Shailesh,Yubesh, Keshav,Shradha,vvgiri,satyajeet,sasmita,khalid,chinmayee,archana,samar,debabrata,} from "../assets";
+import { back, logo, bg,brand, base,auction,stock,business,content, networking, idea, standup,sambad,nbt,kanak,top,unity,zebi,leadangel, radio,fablab,girlscript,nilesh,manas,biswajit,gaurav,nagesh,suparna,mayank,anarpurna,ajit,Nikunj_Agarwal,Harish,Aneek,Anshu,Ishita,Payal,Prateek,Rahul,Angela,Shubham,Debi,Shailesh,Yubesh, Keshav,Shradha,vvgiri,satyajeet,sasmita,khalid,chinmayee,archana,samar,debabrata, ashutosh, abhijeet,} from "../assets";
 
 export const navLinks = [
   {
@@ -27,11 +27,6 @@ export const navLinks = [
     title: "Contact",
     color: "#",
   },
-  {
-    id: "agenda",
-    title: "Agenda",
-    color: "#00df9a",
-  },
 ];
 
 export const TechTeams = {
@@ -46,12 +41,12 @@ export const TechTeams = {
       tlink: "https://twitter.com/008Anshu",
     },
     {
-      name: "Aneek Guha",
-      designation: "Tech lead ",
-      url: Aneek,
-      ilink: "https://instagram.com/__shradha_032?igshid=Y2M0YTlkZGNmOQ==",
+      name: "Harish Choudhary",
+      designation: "Core Member",
+      url: Harish,
+      ilink: "#",
       flink: "#",
-      llink: "https://www.linkedin.com/in/shradha-mohapatra-818b05238",
+      llink: "#",
       tlink: "#",
     },
   ],
@@ -105,6 +100,15 @@ export const PrTeams = {
 export const EventTeams = {
   lead: [
     {
+      name: "Ashutosh",
+      designation: "Event lead",
+      url: ashutosh,
+      ilink: "#",
+      flink: "#",
+      llink: "https://www.linkedin.com/in/anshu-agrawal-b517b9244/",
+      tlink: "https://twitter.com/008Anshu",
+    },
+    {
       name: "Shailesh",
       designation: "Event lead",
       url: Shailesh,
@@ -128,9 +132,9 @@ export const EventTeams = {
 export const SponsorTeams = {
   lead: [
     {
-      name: "Rahul",
+      name: "Angela",
       designation: "Sponsorship lead",
-      url: Rahul,
+      url: Angela,
       ilink: "#",
       flink: "#",
       llink: "https://www.linkedin.com/in/anshu-agrawal-b517b9244/",
@@ -139,7 +143,7 @@ export const SponsorTeams = {
     {
       name: "Abhijeet",
       designation: "Sponsorship lead ",
-      url: Shubham,
+      url: abhijeet,
       ilink: "https://instagram.com/__shradha_032?igshid=Y2M0YTlkZGNmOQ==",
       flink: "#",
       llink: "https://www.linkedin.com/in/shradha-mohapatra-818b05238",
@@ -184,6 +188,7 @@ export const CoordinatorTeams = {
       llink: "https://www.linkedin.com/in/anshu-agrawal-b517b9244/",
       tlink: "https://twitter.com/008Anshu",
     },
+    
     {
       name: "Shradha Mohapatra",
       designation: "Co-Ordinator",
@@ -193,6 +198,16 @@ export const CoordinatorTeams = {
       llink: "https://www.linkedin.com/in/shradha-mohapatra-818b05238",
       tlink: "#",
     },
+    {
+      name: "Rahul",
+      designation: "Organiser",
+      url: Rahul,
+      ilink: "#",
+      flink: "#",
+      llink: "https://www.linkedin.com/in/anshu-agrawal-b517b9244/",
+      tlink: "https://twitter.com/008Anshu",
+    },
+
   ],
 };
 
@@ -602,148 +617,7 @@ export const designteam = {
   ],
 };
 
-export const agenda = {
-  Day1: [
-    {
-      venue: "E-Learning",
-      topic: "Startup Odyssey",
-      time: "9:00 AM - 11:00 AM",
-      description: "Startup bootcamp is an intensive program designed to accelerate the growth and development of early-stage startups. Typically spanning several weeks to a few months, these bootcamps provide entrepreneurs with access to mentorship, resources, and networking opportunities essential for success. Participants receive guidance on refining their business model, honing their pitch, acquiring funding, and scaling their operations.",
-      speaker: "",
-      imgurl: "#",
-      designation: "#",
-    },
-    {
-      venue: "E-Learning",
-      topic: "Startup Odyssey",
-      time: "9:00 AM - 11:00 AM",
-      description: "Startup bootcamp is an intensive program designed to accelerate the growth and development of early-stage startups. Typically spanning several weeks to a few months, these bootcamps provide entrepreneurs with access to mentorship, resources, and networking opportunities essential for success. Participants receive guidance on refining their business model, honing their pitch, acquiring funding, and scaling their operations.",
-      speaker: "",
-      imgurl: "#",
-      designation: "#",
-    },
-    {
-      venue: "E-Learning",
-      topic: "Startup Odyssey",
-      time: "9:00 AM - 11:00 AM",
-      description: "Startup bootcamp is an intensive program designed to accelerate the growth and development of early-stage startups. Typically spanning several weeks to a few months, these bootcamps provide entrepreneurs with access to mentorship, resources, and networking opportunities essential for success. Participants receive guidance on refining their business model, honing their pitch, acquiring funding, and scaling their operations.",
-      speaker: "",
-      imgurl: "#",
-      designation: "#",
-    },
-    {
-      venue: "E-Learning",
-      topic: "Brand Build Up",
-      time: "11:30 AM - 1:00 PM",
-      description: "Brand Build Up Showcase your brand-building skills and compete for fruitful acknowledgement.",
-      speaker: "tech lead",
-      imgurl: "#",
-      designation: "tech lead",
-    },
-    {
-      venue: "E-Learning",
-      topic: "IPL Auction",
-      time: "2:00 PM - 4:30 PM",
-      description: "IPL Auction Participate in a real-time simulation where you'll experience the adrenaline rush of bidding in real time simulation.",
-      speaker: "tech lead",
-      imgurl: "tech lead",
-      designation: "tech lead",
-    },
-    {
-      venue: "E-Learning",
-      topic: "Trader's Camp       ",
-      time: "2:00 PM - 4:30 PM",
-      description: "A trading bootcamp is an intensive educational program designed to teach participants the fundamentals of trading in financial markets. These bootcamps typically cover topics such as technical analysis, fundamental analysis, risk management, trading psychology, and the use of various trading instruments such as stocks, options, futures, and forex.",
-      speaker: "tech lead",
-      imgurl: "#",
-      designation: "tech lead",
-    },
-    {
-      venue: "E-Learning",
-      topic: "Creator's Corner",
-      time: "4:00 PM - 6:00 PM",
-      description: "A panel of content creation powerhouses! Hear diverse perspectives and success stories",
-      speaker: "tech lead",
-      imgurl: "tech lead",
-      designation: "tech lead",
-    },
-    {
-      venue: "E-Learning",
-      topic: "Melodic Evening",
-      time: "6:15 PM - 6:30 PM",
-      description: "Unwind and enjoy some live music.",
-      speaker: "tech lead",
-      imgurl: "tech lead",
-      designation: "tech lead",
-    },
-    {
-      venue: "E-Learning",
-      topic: "Food Fest      ",
-      time: "9:00 AM - 6:30 PM",
-      description: "Take a break and recharge with a delicious selection of food and beverages available throughout the morning and afternoon at the E-Summit .",
-      speaker: "tech lead",
-      imgurl: "#",
-      designation: "tech lead",
-    },
-  ],
-  Day2: [
-    {
-      venue: "E-Learning",
-      topic: "Leadership Summit ",
-      time: "9:00 AM - 1:00 PM",
-      description: "Learn cutting-edge business strategies, gain inspiration from visionary leaders, and walk away with actionable tools to empower your team and achieve results. Expect keynotes, panel discussions, fireside chats, and networking opportunities to develop your leadership skills, expand your network, and ignite your entrepreneurial spirit.",
-      speaker: "",
-      imgurl: "#",
-      designation: "#",
-    },
-    {
-      venue: "E-Learning",
-      topic: "Networking Lunch",
-      time: "1:00 PM - 3:00 PM",
-      description: "Fuel your body and forge connections! Enjoy a delicious lunch while interacting with fellow attendees, potential collaborators, and industry leaders.      ",
-      speaker: "",
-      imgurl: "#",
-      designation: "#",
-    },
-    {
-      venue: "E-Learning",
-      topic: "Ideathon Pitch",
-      time: "3:00 PM - 5:00 PM",
-      description: "Witness the birth of groundbreaking ideas!  Support and be inspired by innovative startups as they showcase their concepts and compete for recognition. ",
-      speaker: "",
-      imgurl: "#",
-      designation: "#",
-    },
-    {
-      venue: "E-Learning",
-      topic: "The Laughter Lounge      ",
-      time: "5:15 PM - 6:00 PM",
-      description: "De-stress and unwind! Enjoy a side-splitting performance by a comic as laughter is the best medicine.      ",
-      speaker: "tech lead",
-      imgurl: "#",
-      designation: "tech lead",
-    },
-    {
-      venue: "E-Learning",
-      topic: "Cultural Evening ",
-      time: "6:15 PM - 6:30 PM",
-      description: "As E-Summit draws to a close, don't miss the chance to be captivated by a stunning dance performance!      ",
-      speaker: "tech lead",
-      imgurl: "tech lead",
-      designation: "tech lead",
-    },
-    {
-      venue: "E-Learning",
-      topic: "Food Fest      ",
-      time: "9:00 AM - 6:30 PM",
-      description: "Take a break and recharge with a delicious selection of food and beverages available throughout the morning and afternoon at the E-Summit .",
-      speaker: "tech lead",
-      imgurl: "#",
-      designation: "tech lead",
-    },
-    
-  ],
-};
+
 
 // vvgiri ,satyajeet ,sasmita ,khalid ,chinmayee ,archana ,samar ,debabrata ,
 

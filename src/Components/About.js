@@ -148,7 +148,7 @@ function ScrollSection() {
               </div>
 
               <div className="stats" ref={contentRef}>
-                <div className="attendees" ref={attendeesRef}><p className="main-font">Attendees</p><p className="main-font">30 +</p></div>
+                <div className="attendees" ref={attendeesRef}><p className="main-font">Attendees</p><p className="main-font">2000 +</p></div>
                 <div className="startups" ref={startupsRef}>
                 <p className="main-font">startups</p><p className="main-font">30 +</p>
                 </div>
