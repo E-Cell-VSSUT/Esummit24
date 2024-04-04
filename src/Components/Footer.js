@@ -181,7 +181,7 @@ export default function Footer() {
 
       {/* <!--Copyright section--> */}
       <div className="bg-[#161b22] p-6 text-center dark:bg-[#161b22]">
-        <span>© 2023 Copyright:</span>
+        <span>© 2024 Copyright:</span>
         <a
           className="font-semibold text-neutral-500 dark:text-neutral-300 hover:no-underline hover:text-cyan-500"
           href=" "
