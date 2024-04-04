@@ -4,6 +4,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { LiaLinkedinIn } from "react-icons/lia";
 import { CiInstagram } from "react-icons/ci";
+import { speakers } from "../constants";
 
 const Speaker = () => {
   return (
@@ -45,178 +46,76 @@ const Speaker = () => {
           </h1>
 
           <div className="flex justify-center items-center flex-wrap gap-10 ml-[10%] mr-[10%]">
-            <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
-              <div className="speaker-card">
-                <img
-                  alt=""
-                  src="https://2k21.s3.amazonaws.com/ourspeakers/Radhika_Bajoria-removebg-preview.png"
-                />
-                <div class="details">
-                  <p class="name">Radhika Bajoria</p>
-                  <p class="designation ">Founder, Radically Yours</p>
+            {speakers.lead.map((team) => (
+             
+                <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
+                  <div className="speaker-card">
+                    <img alt="" src={team.url} />
+                    <div class="details">
+                      <p class="name">{team.name}</p>
+                      <p class="designation ">{team.designation}</p>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-
-            <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
-              <div className="speaker-card">
-                <img
-                  alt=""
-                  src="https://2k21.s3.amazonaws.com/ourspeakers/Radhika_Bajoria-removebg-preview.png"
-                />
-                <div class="details">
-                  <p class="name">Radhika Bajoria</p>
-                  <p class="designation">Founder, Radically Yours</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
-              <div className="speaker-card">
-                <img
-                  alt=""
-                  src="https://2k21.s3.amazonaws.com/ourspeakers/Radhika_Bajoria-removebg-preview.png"
-                />
-                <div class="details">
-                  <p class="name">Radhika Bajoria</p>
-                  <p class="designation">Founder, Radically Yours</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
-              <div className="speaker-card">
-                <img
-                  alt=""
-                  src="https://2k21.s3.amazonaws.com/ourspeakers/Radhika_Bajoria-removebg-preview.png"
-                />
-                <div class="details">
-                  <p class="name">Radhika Bajoria</p>
-                  <p class="designation">Founder, Radically Yours</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
-              <div className="speaker-card">
-                <img
-                  alt=""
-                  src="https://2k21.s3.amazonaws.com/ourspeakers/Radhika_Bajoria-removebg-preview.png"
-                />
-                <div class="details">
-                  <p class="name">Radhika Bajoria</p>
-                  <p class="designation">Founder, Radically Yours</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
-              <div className="speaker-card">
-                <img
-                  alt=""
-                  src="https://2k21.s3.amazonaws.com/ourspeakers/Radhika_Bajoria-removebg-preview.png"
-                />
-                <div class="details">
-                  <p class="name">Radhika Bajoria</p>
-                  <p class="designation">Founder, Radically Yours</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
-              <div className="speaker-card">
-                <img
-                  alt=""
-                  src="https://2k21.s3.amazonaws.com/ourspeakers/Radhika_Bajoria-removebg-preview.png"
-                />
-                <div class="details">
-                  <p class="name">Radhika Bajoria</p>
-                  <p class="designation">Founder, Radically Yours</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
-              <div className="speaker-card">
-                <img
-                  alt=""
-                  src="https://2k21.s3.amazonaws.com/ourspeakers/Radhika_Bajoria-removebg-preview.png"
-                />
-                <div class="details">
-                  <p class="name">Radhika Bajoria</p>
-                  <p class="designation">Founder, Radically Yours</p>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
-              <div className="speaker-card">
-                <img
-                  alt=""
-                  src="https://2k21.s3.amazonaws.com/ourspeakers/Radhika_Bajoria-removebg-preview.png"
-                />
-                <div class="details">
-                  <p class="name">Radhika Bajoria</p>
-                  <p class="designation">Founder, Radically Yours</p>
-                </div>
-              </div>
-            </div>
+             
+            ))}
           </div>
           {/* contact */}
 
-            <div className="flex justify-center items-center flex-wrap flex-col gap-[100px] lg:gap-0">
-              <h1 className="text-white text-2xl lg:text-5xl main-font2">Contact Us</h1>
-              <div className="team_container">
-                {PrTeams.lead.map((team) => (
-                  <div class="wrapper ">
-                    <div class="img-area">
-                      <div class="inner-area">
-                        <img src={team.url} alt="" />
-                      </div>
-                    </div>
-                    <div class="effect"></div>
-                    <div class="name">{team.name}</div>
-                    <div class="secname">{team.name}</div>
-                    <div class="about">{team.designation}</div>
-                    <div class="social-icons">
-                      <a
-                        href="#"
-                        className=" XTwitter flex justify-center items-center text-2xl"
-                      >
-                        <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
-                          <FaXTwitter />
-                        </div>
-                      </a>
-                      <a
-                        href="#"
-                        className="Facebook flex justify-center items-center text-2xl"
-                      >
-                        <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
-                          <FaFacebook />
-                        </div>
-                      </a>
-                      <a
-                        href="#"
-                        className="Linkedin flex justify-center items-center text-2xl"
-                      >
-                        <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
-                          <LiaLinkedinIn />
-                        </div>
-                      </a>
-                      <a
-                        href="#"
-                        className="Instagram flex justify-center items-center text-2xl"
-                      >
-                        <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
-                          <CiInstagram />
-                        </div>
-                      </a>
+          <div className="flex justify-center items-center flex-wrap flex-col gap-[100px] lg:gap-0">
+            <h1 className="text-white text-2xl lg:text-5xl main-font2">
+              Contact Us
+            </h1>
+            <div className="team_container">
+              {PrTeams.lead.map((team) => (
+                <div class="wrapper ">
+                  <div class="img-area">
+                    <div class="inner-area">
+                      <img src={team.url} alt="" />
                     </div>
                   </div>
-                ))}
-              </div>
+                  <div class="effect"></div>
+                  <div class="name">{team.name}</div>
+                  <div class="secname">{team.name}</div>
+                  <div class="about">{team.designation}</div>
+                  <div class="social-icons">
+                    <a
+                      href="#"
+                      className=" XTwitter flex justify-center items-center text-2xl"
+                    >
+                      <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
+                        <FaXTwitter />
+                      </div>
+                    </a>
+                    <a
+                      href="#"
+                      className="Facebook flex justify-center items-center text-2xl"
+                    >
+                      <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
+                        <FaFacebook />
+                      </div>
+                    </a>
+                    <a
+                      href="#"
+                      className="Linkedin flex justify-center items-center text-2xl"
+                    >
+                      <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
+                        <LiaLinkedinIn />
+                      </div>
+                    </a>
+                    <a
+                      href="#"
+                      className="Instagram flex justify-center items-center text-2xl"
+                    >
+                      <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
+                        <CiInstagram />
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              ))}
             </div>
-         
+          </div>
         </div>
       </div>
     </div>
@@ -224,3 +123,19 @@ const Speaker = () => {
 };
 
 export default Speaker;
+
+{
+  /* <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
+              <div className="speaker-card">
+                <img
+                  alt=""
+                  src="https://2k21.s3.amazonaws.com/ourspeakers/Radhika_Bajoria-removebg-preview.png"
+                />
+                <div class="details">
+                  <p class="name">Radhika Bajoria</p>
+                  <p class="designation">Founder, Radically Yours</p>09
+
+                </div>
+              </div>
+            </div> */
+}

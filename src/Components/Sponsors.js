@@ -4,7 +4,15 @@ import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { LiaLinkedinIn } from "react-icons/lia";
 import { CiInstagram } from "react-icons/ci";
-import Pc from '../assets/sponsors/pc.jpg'
+import Pc from '../assets/sponsors/pc.jpg';
+import bc from '../assets/sponsors/burger company.jpg';
+import ek from '../assets/sponsors/entertainment kingdom.jpeg';
+import nex from '../assets/sponsors/nextgen.jpeg';
+import scomm from '../assets/sponsors/scomm india.jpeg';
+import unstop from '../assets/sponsors/unstop.jpg';
+import vk from '../assets/sponsors/village Kraft.jpeg';
+
+
 
 const Sponsors = () => {
   return (
@@ -49,15 +57,26 @@ const Sponsors = () => {
           <h1 className="mb-4 text-4xl main-font2 font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white">
             Sponsors
           </h1>
+          <div className="flex justify-center items-center gap-5 flex-wrap mb-[10px]">
+          <div className="flex flex-col s-transform justify-center items-center gap-10">
+              <h1 className="text-md sm:text-2xl text-white">Co-Powered By</h1>
+              <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]"></div>
+              <div className="flex justify-center items-center flex-wrap">
+                <div className="h-[200px] w-[300px] flex justify-center items-center bg-[#fff] rounded-xl border border-solid border-yellow-300 overflow-hidden">
+                  <img src={unstop} />
+                </div>
+              </div>
+            </div>
+          </div>
 
-    <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
+    <div className="flex justify-center items-center gap-5 gap-y-20 flex-wrap mb-[100px]">
 
     <div className="flex flex-col s-transform justify-center items-center gap-10 ">
-              <h1 className="text-md sm:text-2xl text-white">Hotel Sponsors</h1>
+              <h1 className="text-md sm:text-2xl text-white">Hospitality Sponsors</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]">
             </div>
             <div className="flex justify-center items-center flex-wrap">
-              <div className="h-[200px] w-[300px] flex justify-center items-center bg-[#fff] rounded-xl border border-solid border-yellow-300">
+              <div className="h-[200px] w-[300px] flex justify-center items-center bg-[#fff] rounded-xl border border-solid border-yellow-300 overflow-hidden">
                 <img src={Pc} />
               </div>
             </div>
@@ -66,64 +85,57 @@ const Sponsors = () => {
 
 
             <div className="flex flex-col s-transform justify-center items-center gap-10">
-              <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
+              <h1 className="text-md sm:text-2xl text-white">Electronics Partner</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]"></div>
               <div className="flex justify-center items-center flex-wrap">
-                <div className="h-[200px] w-[300px] flex justify-center items-center bg-[#fff] rounded-xl border border-solid border-yellow-300">
-                  <img src="https://2k21.s3.amazonaws.com/partners/Inc42_Black-removebg-preview.png" />
+                <div className="h-[200px] w-[300px] flex justify-center items-center bg-[#fff] rounded-xl border border-solid border-yellow-300 overflow-hidden">
+                  <img src={nex} />
                 </div>
               </div>
             </div>
 
             <div className="flex flex-col s-transform justify-center items-center gap-10">
-              <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
+              <h1 className="text-md sm:text-2xl text-white">Gifting Partner</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]"></div>
               <div className="flex justify-center items-center flex-wrap">
-                <div className="h-[200px] w-[300px] flex justify-center items-center bg-[#fff] rounded-xl border border-solid border-yellow-300">
-                  <img src="https://2k21.s3.amazonaws.com/partners/Inc42_Black-removebg-preview.png" />
+                <div className="h-[200px] w-[300px] flex justify-center items-center bg-[#fff] rounded-xl border border-solid border-yellow-300 overflow-hidden">
+                  <img src={vk} />
                 </div>
               </div>
             </div>
 
             <div className="flex flex-col s-transform justify-center items-center gap-10">
-              <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
+              <h1 className="text-md sm:text-2xl text-white">Community Partner</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]"></div>
               <div className="flex justify-center items-center flex-wrap">
-                <div className="h-[200px] w-[300px] flex justify-center items-center bg-[#fff] rounded-xl border border-solid border-yellow-300">
-                  <img src="https://2k21.s3.amazonaws.com/partners/Inc42_Black-removebg-preview.png" />
+                <div className="h-[200px] w-[300px] flex justify-center items-center bg-[#fff] rounded-xl border border-solid border-yellow-300 overflow-hidden">
+                  <img src={scomm} />
                 </div>
               </div>
             </div>
 
             <div className="flex flex-col s-transform justify-center items-center gap-10">
-              <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
+              <h1 className="text-md sm:text-2xl text-white">Fooding Partner</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]"></div>
               <div className="flex justify-center items-center flex-wrap">
-                <div className="h-[200px] w-[300px] flex justify-center items-center bg-[#fff] rounded-xl border border-solid border-yellow-300">
-                  <img src="https://2k21.s3.amazonaws.com/partners/Inc42_Black-removebg-preview.png" />
+                <div className="h-[200px] w-[300px] flex justify-center items-center bg-[#fff] rounded-xl border border-solid border-yellow-300 overflow-hidden">
+                  <img src={bc} />
                 </div>
               </div>
             </div>
 
             <div className="flex flex-col s-transform justify-center items-center gap-10">
-              <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
+              <h1 className="text-md sm:text-2xl text-white">Outing Partner</h1>
               <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]"></div>
               <div className="flex justify-center items-center flex-wrap">
-                <div className="h-[200px] w-[300px] flex justify-center items-center bg-[#fff] rounded-xl border border-solid border-yellow-300">
-                  <img src="https://2k21.s3.amazonaws.com/partners/Inc42_Black-removebg-preview.png" />
+                <div className="h-[200px] w-[300px] flex justify-center items-center bg-[#fff] rounded-xl border border-solid border-yellow-300 overflow-hidden">
+                  <img src={ek} />
                 </div>
               </div>
             </div>
 
-            <div className="flex flex-col s-transform justify-center items-center gap-10">
-              <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
-              <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]"></div>
-              <div className="flex justify-center items-center flex-wrap">
-                <div className="h-[200px] w-[300px] flex justify-center items-center bg-[#fff] rounded-xl border border-solid border-yellow-300">
-                  <img src="https://2k21.s3.amazonaws.com/partners/Inc42_Black-removebg-preview.png" />
-                </div>
-              </div>
-            </div>
+          
+            
           </div>
           {/* contact */}
           <div className="flex justify-center items-center flex-wrap flex-col gap-[100px] lg:gap-0">

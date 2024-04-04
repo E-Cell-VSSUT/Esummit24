@@ -1,4 +1,4 @@
-import { back, logo, bg,brand, base,auction,stock,business,content, networking, idea, standup,sambad,nbt,kanak,top,unity,zebi,leadangel, radio,fablab,girlscript,nilesh,manas,biswajit,gaurav,nagesh,suparna,mayank,anarpurna,ajit,Nikunj_Agarwal,Aneek,Anshu,Ishita,Payal,Prateek,Rahul,Angela,Shubham,Debi,Shailesh,Yubesh, Keshav,Shradha } from "../assets";
+import { back, logo, bg,brand, base,auction,stock,business,content, networking, idea, standup,sambad,nbt,kanak,top,unity,zebi,leadangel, radio,fablab,girlscript,nilesh,manas,biswajit,gaurav,nagesh,suparna,mayank,anarpurna,ajit,Nikunj_Agarwal,Aneek,Anshu,Ishita,Payal,Prateek,Rahul,Angela,Shubham,Debi,Shailesh,Yubesh, Keshav,Shradha,vvgiri,satyajeet,sasmita,khalid,chinmayee,archana,samar,debabrata,} from "../assets";
 
 export const navLinks = [
   {
@@ -745,24 +745,56 @@ export const agenda = {
   ],
 };
 
+// vvgiri ,satyajeet ,sasmita ,khalid ,chinmayee ,archana ,samar ,debabrata ,
+
 export const speakers = {
   lead: [
     {
-      name: "A ",
-      designation: "B",
-      url: "https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      name: "Khalid Wani",
+      designation: "Founder & Ceo of KWCG, Director at ONE CAPITAL NBFC, TDEX SPEAKER",
+      url: khalid,
       
     },
     {
-      name: "A ",
-      designation: "B",
-      url: "https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      name: "Satyajeet Pattnaik ",
+      designation: "Co-founder of Fydo",
+      url: satyajeet
       
     },
     {
-      name: "A ",
-      designation: "B",
-      url: "https://images.unsplash.com/photo-1492288991661-058aa541ff43?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      name: "Archana Tripathy",
+      designation: "Tata-cumins,Co-founder of The Kalinga Heritage",
+      url: archana
+      
+    },
+    {
+      name: "Debabrata Giri",
+      designation: "DGM of Tata-Motors",
+      url: debabrata
+      
+    },
+    {
+      name: "Chinmay Satpathy",
+      designation: "Founder & CEO of Village Kraft",
+      url: chinmayee
+      
+    },
+    {
+      name: "Samar Pratap Naayak",
+      designation: "Founder & MD of Olive Ridley Media",
+      url: samar
+      
+    },
+    {
+      name: "Sasmita Samanta",
+      designation: "Founder & Chairperson at SOUL Limited",
+      url: sasmita
+      
+    },
+    {
+      name: "Vonkayala Venkata Giri",
+      designation: "CTO at KFin Technologies",
+      url: vvgiri
       
     },
   ],
