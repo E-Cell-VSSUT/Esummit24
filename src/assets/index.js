@@ -14,6 +14,18 @@ import idea from './lightbulb.png'
 import standup from './masks.png'
 
 
+import debabrata from './speakers/debabrata.jpeg'
+import samar from './speakers/samar.jpg'
+import archana from './speakers/archana.jpg'
+import chinmayee from './speakers/chinmayee.jpeg'
+import khalid from './speakers/khalid.jpg'
+import sasmita from './speakers/sasmita.jpeg'
+import satyajeet from './speakers/satyajeet.jpg'
+import vvgiri from './speakers/vvgiri.jpeg'
+
+
+
+
 
 import sambad from './sambad.webp'
 import nbt from './nbt.webp'
@@ -55,5 +67,5 @@ import Shailesh from './Team/Shaileshmishra.jpg'
 import Shradha from './Team/Shradha.jpeg'
 
 export {
-    bg,logo,cave,ecell,mainbg,brand,base,auction,stock,business,content,networking,idea,standup,sambad,nbt,kanak,top,unity,zebi,leadangel,radio,fablab,girlscript,nilesh,manas,biswajit,gaurav,nagesh,suparna,mayank,anarpurna,ajit,shortLogo,Nikunj_Agarwal,Aneek,Anshu,Ishita,Payal,Prateek,Rahul,Angela,Shubham,Debi,Shailesh,Yubesh,Keshav,Shradha
+    bg,logo,cave,ecell,mainbg,brand,base,auction,stock,business,content,networking,idea,standup,sambad,nbt,kanak,top,unity,zebi,leadangel,radio,fablab,girlscript,nilesh,manas,biswajit,gaurav,nagesh,suparna,mayank,anarpurna,ajit,shortLogo,Nikunj_Agarwal,Aneek,Anshu,Ishita,Payal,Prateek,Rahul,Angela,Shubham,Debi,Shailesh,Yubesh,Keshav,Shradha,vvgiri,satyajeet,sasmita,khalid,chinmayee,archana,samar,debabrata
 }
