@@ -116,8 +116,8 @@ function ScrollSection() {
         <div ref={sectionRef} className="scroll-section-inner">
           <div className="scroll-section">
             <div className="info mt-[100px] sm:mt-0">
-              <h1 className="mb-4 main-font2 glow-effect  text-1xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-7xl dark:text-white">What is E-summit ?</h1>
-              <p className=" main-font  mb-6 text-xs w-[90%] lg:text-xl font-normal text-gray-400 dark:text-gray-300 hover:dark:text-gray-200">
+              <h1 className="mb-4 main-font2 glow-effect  text-1xl font-extrabold leading-none tracking-tight  md:text-5xl lg:text-7xl text-white">What is E-summit ?</h1>
+              <p className=" main-font  mb-6 text-xs w-[90%] lg:text-xl font-normal  text-gray-300 hover:text-gray-200">
               E-summit 2024, the biggest entrepreneurial event of western Odisha hosted by
                ECell VSSUT Burla, brings together industry leaders, visionaries, and budding 
                entrepreneurs in a symphony of innovation and inspiration. It will act as a vibrant platform
