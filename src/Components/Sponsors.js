@@ -129,7 +129,7 @@ const Sponsors = () => {
           <div className="flex justify-center items-center flex-wrap flex-col gap-[100px] lg:gap-0">
             <h1 className=" text-4xl main-font2 leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white">Contact Us</h1>
           <div className="team_container ">
-          {teams.lead.map((team) => (
+          {SponsorTeams.lead.map((team) => (
             <div class="wrapper ">
               <div class="img-area">
                 <div class="inner-area">
