@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import About from "./Components/About";
 import Event from "./Components/Event";
 import Main from "./Components/Main";
-import Agenda from "./Components/Agenda";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Speaker from "./Components/Speaker";
@@ -79,14 +78,7 @@ const App = () => {
             />
           {/* )} */}
 
-          <Route
-            path="/agenda"
-            element={
-              <div className="bg-[#161b22] bg-no-repeat bg-cover">
-                <Agenda />
-              </div>
-            }
-          />
+        
           <Route
             path="/Sponsors"
             element={
