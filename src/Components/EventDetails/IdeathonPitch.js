@@ -1,6 +1,6 @@
 import React from "react";
 import Faq from "../Faq.js";
-import { teams } from "../../constants/index.js";
+import { PrTeams, teams } from "../../constants/index.js";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { LiaLinkedinIn } from "react-icons/lia";
@@ -126,7 +126,7 @@ const IdeathonPitch = () => {
               Contact Us
             </h1>
             <div className="team_container">
-              {teams.lead.map((team) => (
+              {PrTeams.lead.map((team) => (
                 <div class="wrapper">
                   <div class="img-area">
                     <div class="inner-area">

@@ -1,5 +1,5 @@
 import React from "react";
-import { teams } from "../constants";
+import { PrTeams } from "../constants";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { LiaLinkedinIn } from "react-icons/lia";
@@ -164,60 +164,59 @@ const Speaker = () => {
           </div>
           {/* contact */}
 
-          <div className="flex justify-center items-center flex-wrap flex-col gap-[100px] lg:gap-0">
-            <h1 className="text-white text-2xl lg:text-5xl main-font2">
-              Contact Us
-            </h1>
-            <div className="team_container">
-              {teams.lead.map((team) => (
-                <div class="wrapper ">
-                  <div class="img-area">
-                    <div class="inner-area">
-                      <img src={team.url} alt="" />
+            <div className="flex justify-center items-center flex-wrap flex-col gap-[100px] lg:gap-0">
+              <h1 className="text-white text-2xl lg:text-5xl main-font2">Contact Us</h1>
+              <div className="team_container">
+                {PrTeams.lead.map((team) => (
+                  <div class="wrapper ">
+                    <div class="img-area">
+                      <div class="inner-area">
+                        <img src={team.url} alt="" />
+                      </div>
+                    </div>
+                    <div class="effect"></div>
+                    <div class="name">{team.name}</div>
+                    <div class="secname">{team.name}</div>
+                    <div class="about">{team.designation}</div>
+                    <div class="social-icons">
+                      <a
+                        href="#"
+                        className=" XTwitter flex justify-center items-center text-2xl"
+                      >
+                        <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
+                          <FaXTwitter />
+                        </div>
+                      </a>
+                      <a
+                        href="#"
+                        className="Facebook flex justify-center items-center text-2xl"
+                      >
+                        <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
+                          <FaFacebook />
+                        </div>
+                      </a>
+                      <a
+                        href="#"
+                        className="Linkedin flex justify-center items-center text-2xl"
+                      >
+                        <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
+                          <LiaLinkedinIn />
+                        </div>
+                      </a>
+                      <a
+                        href="#"
+                        className="Instagram flex justify-center items-center text-2xl"
+                      >
+                        <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
+                          <CiInstagram />
+                        </div>
+                      </a>
                     </div>
                   </div>
-                  <div class="effect"></div>
-                  <div class="name">{team.name}</div>
-                  <div class="secname">{team.name}</div>
-                  <div class="about">{team.designation}</div>
-                  <div class="social-icons">
-                    <a
-                      href="#"
-                      className=" XTwitter flex justify-center items-center text-2xl"
-                    >
-                      <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
-                        <FaXTwitter />
-                      </div>
-                    </a>
-                    <a
-                      href="#"
-                      className="Facebook flex justify-center items-center text-2xl"
-                    >
-                      <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
-                        <FaFacebook />
-                      </div>
-                    </a>
-                    <a
-                      href="#"
-                      className="Linkedin flex justify-center items-center text-2xl"
-                    >
-                      <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
-                        <LiaLinkedinIn />
-                      </div>
-                    </a>
-                    <a
-                      href="#"
-                      className="Instagram flex justify-center items-center text-2xl"
-                    >
-                      <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
-                        <CiInstagram />
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
-          </div>
+         
         </div>
       </div>
     </div>

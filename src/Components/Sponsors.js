@@ -1,9 +1,10 @@
 import React from "react";
-import { teams } from "../constants";
+import { SponsorTeams } from "../constants";
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { LiaLinkedinIn } from "react-icons/lia";
 import { CiInstagram } from "react-icons/ci";
+import Pc from '../assets/sponsors/pc.jpg'
 
 const Sponsors = () => {
   return (
@@ -49,16 +50,20 @@ const Sponsors = () => {
             Sponsors
           </h1>
 
-          <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
-            <div className="flex flex-col s-transform justify-center items-center gap-10 ">
-              <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
-              <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]"></div>
-              <div className="flex justify-center items-center flex-wrap">
-                <div className="h-[200px] w-[300px] flex justify-center items-center bg-[#fff] rounded-xl border border-solid border-yellow-300">
-                  <img src="https://2k21.s3.amazonaws.com/partners/Inc42_Black-removebg-preview.png" />
-                </div>
+    <div className="flex justify-center items-center gap-5 flex-wrap mb-[100px]">
+
+    <div className="flex flex-col s-transform justify-center items-center gap-10 ">
+              <h1 className="text-md sm:text-2xl text-white">Hotel Sponsors</h1>
+              <div className="w-[330px] h-[2.5px] bg-[#cded09] mt-[10px] mb-[10px]">
+            </div>
+            <div className="flex justify-center items-center flex-wrap">
+              <div className="h-[200px] w-[300px] flex justify-center items-center bg-[#fff] rounded-xl border border-solid border-yellow-300">
+                <img src={Pc} />
               </div>
             </div>
+          </div>
+
+
 
             <div className="flex flex-col s-transform justify-center items-center gap-10">
               <h1 className="text-md sm:text-2xl text-white">Media Sponsors</h1>
@@ -122,58 +127,56 @@ const Sponsors = () => {
           </div>
           {/* contact */}
           <div className="flex justify-center items-center flex-wrap flex-col gap-[100px] lg:gap-0">
-            <h1 className=" text-4xl main-font2 leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white">
-              Contact Us
-            </h1>
-            <div className="team_container ">
-              {teams.lead.map((team) => (
-                <div class="wrapper ">
-                  <div class="img-area">
-                    <div class="inner-area">
-                      <img src={team.url} alt="" />
-                    </div>
-                  </div>
-                  <div class="effect"></div>
-                  <div class="name">{team.name}</div>
-                  <div class="secname">{team.name}</div>
-                  <div class="about">{team.designation}</div>
-                  <div class="social-icons">
-                    <a
-                      href="#"
-                      className=" XTwitter flex justify-center items-center text-2xl"
-                    >
-                      <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
-                        <FaXTwitter />
-                      </div>
-                    </a>
-                    <a
-                      href="#"
-                      className="Facebook flex justify-center items-center text-2xl"
-                    >
-                      <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
-                        <FaFacebook />
-                      </div>
-                    </a>
-                    <a
-                      href="#"
-                      className="Linkedin flex justify-center items-center text-2xl"
-                    >
-                      <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
-                        <LiaLinkedinIn />
-                      </div>
-                    </a>
-                    <a
-                      href="#"
-                      className="Instagram flex justify-center items-center text-2xl"
-                    >
-                      <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
-                        <CiInstagram />
-                      </div>
-                    </a>
-                  </div>
+            <h1 className=" text-4xl main-font2 leading-none tracking-tight text-gray-900 md:text-5xl lg:text-5xl dark:text-white">Contact Us</h1>
+          <div className="team_container ">
+          {teams.lead.map((team) => (
+            <div class="wrapper ">
+              <div class="img-area">
+                <div class="inner-area">
+                  <img src={team.url} alt="" />
                 </div>
-              ))}
+              </div>
+              <div class="effect"></div>
+              <div class="name">{team.name}</div>
+              <div class="secname">{team.name}</div>
+              <div class="about">{team.designation}</div>
+              <div class="social-icons">
+                <a
+                  href="#"
+                  className=" XTwitter flex justify-center items-center text-2xl"
+                >
+                  <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
+                    <FaXTwitter />
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  className="Facebook flex justify-center items-center text-2xl"
+                >
+                  <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
+                    <FaFacebook />
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  className="Linkedin flex justify-center items-center text-2xl"
+                >
+                  <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
+                    <LiaLinkedinIn />
+                  </div>
+                </a>
+                <a
+                  href="#"
+                  className="Instagram flex justify-center items-center text-2xl"
+                >
+                  <div className="z-40 flex justify-center items-center text-zinc-100 iconbeat ">
+                    <CiInstagram />
+                  </div>
+                </a>
+              </div>
             </div>
+          ))}
+        </div>
           </div>
         </div>
       </div>
